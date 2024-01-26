@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FARFERCH</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!--header-->
+
+    <div id="wrap">
+        <header>
+            <div class="lefticon">
+                <img src="icon/login.png" alt="">
+                <img src="icon/shoppingbag.png" alt="">
+                <img src="icon/hearts.png" alt="">
+                <img src="icon/search.png" alt="">
+            </div>
+
+            <img src="icon/sublogo.png" id="a" onclick="open">
+            <div class="content">
+                <a href="#">Home</a>
+                <a href="#">Man</a>
+                <a href="#">Women</a>
+                <a href="#">Kids</a>
+            </div>
+        </header>
+    </div>
+
+    <!--slider-->
+    <div id="slider">
+        <h1 style="font-size: 150px;">FARFERCH</h1>
+    </div>
+
+    <!--page1-->
+    <nav>
+        <ul>
+            <li>CLOTHING</li>
+            <li>SHOES</li>
+            <li>BRANDS</li>
+            <li>BAGS</li>
+            <li>ACCESSORIES</li>
+            <li>HOME-WARE</li>
+        </ul>
+    </nav>
+
+    <!--page2-->
+
+    <div class="container1">
+
+        <div class="item1">
+            <img src="img/trend1.jpeg" alt="">
+        </div>
+        <div class="item1_3">
+            <img src="img/trend2.jpeg" alt="">
+        </div>
+        <div class="container1_5">
+            <h1 style="font-size: 95px; text-align: right;">NEW <br>
+                TREND</h1>
+            <div class="item2">
+                <img src="img/boutiqueoutfit.jpg" alt="">
+                <div class="textbox">
+                <p style="font-size: 60px; color: white;">Boutique Outfit</p></div>
+            </div>
+            <div class="item3">
+                <img src="img/StyleGuide.jpg" alt="">
+                <div class="textbox">
+                <p style="font-size: 60px; color: white;">Stysle Guide</p>
+            </div>
+            </div>
+        </div>
+
+        <button></button>
+
+
+    </div>
+
+    <!--page3-->
+
+    <div class="container2">
+        <div class="container2_3">
+
+            <h1 style="font-size: 80px;">BEST ITEMS</h1>
+            <div class="subbox"></div>
+            <div class="container2_5">
+                <div class="box1">
+                    <img src="img/bestitem1.jpg" class="ich">
+                </div>
+                <div class="box2">
+                    <img src="img/bestitem4.jpg" class="ich">
+                </div>
+                <div class="box">
+                    <img src="img/bestitem7.jpg" class="ich">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--page4-->
+    <div class="saletop">
+        <h3 style="color: white; font-size: 45px;">
+            SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE
+        </h3>
+    </div>
+    <div class="container3">
+        <div class="container3_2">
+            <h1 style="font-size: 120px;">UP TO <br>
+                70% OFF</h1>
+            <div class="imgbox1">
+                <img src="img/salemain.jpg" alt="">
+            </div>
+        </div>
+        <div class="container3_5">
+            <div class="imgbox2"></div>
+            <hr>
+            <div class="imgbox3"></div>
+        </div>
+    </div>
+
+
+    <div class="salebottom">
+        <h3 style="color: white; font-size: 45px;">
+            SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE SALE
+            SALE</h3>
+    </div>
+
+    <!--page5-->
+
+    <div class="container4">
+        <div class="box1">
+            <h1 style="font-size: 80px;">
+                GET A <br>
+                NEWSLETTER !
+            </h1>
+            <button></button>
+        </div>
+        <div class="box2">
+            <img src="icon/chat.png" alt="">
+            <h1 style="font-size: 80px; text-align: center;">Ask For <br>
+                Help?</h1><br><br>
+            <p style="font-size: 23px;">Contact Global Customer Service</p>
+        </div>
+    </div>
+
+    <!--footer-->
+
+    <footer>
+        <div class="bottom"></div>
+    </footer>
+
+    <script>
+        /*best items 1*/
+        const images = document.getElementsByClassName("ich");
+        let img_array = [["img/bestitem1.jpg","img/bestitem3.jpg", "img/bestitem2.jpg"],["img/bestitem4.jpg","img/bestitem5.jpg","img/bestitem6.jpg"],["img/bestitem7.jpg","img/bestitem8.jpg","img/bestitem9.jpg"]];
+
+        let j = 0;
+
+        function slide(){
+            j++;
+            if(j >= img_array.length){
+                j=0;
+            }
+            for(var i in img_array){
+                images[i].src = img_array[i][j];
+            }
+        }
+
+        setInterval(slide, 1000);
+
+        /*best items 2*/
+
+        // let images=[["img/bestitem1.jpg", "img/bestitem3.jpg", "img/bestitem2.jpg"],["img/bestitem4.jpg", "img/bestitem5.jpg", "img/bestitem6.jpg"]]
+
+        // for(let i=0; i<images.length; i++){
+
+        // }
+    </script>
+</body>
+
+</html>
