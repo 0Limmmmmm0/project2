@@ -20,8 +20,16 @@ header {
     align-items: center;
 }
 
-header .lefticon img {width: 40px; height: 40px; padding: 10px;}
-header img {width: 70px; height: 70px;}
+header .lefticon img {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+}
+
+header img {
+    width: 70px;
+    height: 70px;
+}
 
 /*footer*/
 
@@ -31,4 +39,116 @@ footer {
     height: 783px;
 }
 
-.bottom {margin: 0 auto; background: red; width: 1500px; height: auto;}
+#bottom {
+    margin: 0 auto;
+    width: 1500px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.cubox {
+    width: 400px;
+    height: 360px;
+    line-height: 350px;
+    text-align: center;
+    /* display: flex; */
+}
+
+.cubox1 {
+    width: 359px;
+    height: 360px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.cubox1 p {
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.cubox2 {
+    width: 488px;
+    height: 360px;
+    font-size: 20px;
+}
+
+.cubox2 p {
+    padding: 25px;
+    position: relative;
+    top: 90px;
+}
+
+
+.icon {
+    width: 150px;
+    height: 360px;
+}
+
+.icon img {
+    padding: 10px 0 10px 9px;
+    margin-top: 20px;
+}
+
+.icon img:hover {opacity: 0.5;}
+
+.memberbox {
+    width: 400px;
+    height: 333px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.memberbox h2 {padding: 55px;
+position: relative;
+top: 60px;}
+
+.memberbox1 {width: 360px;
+    height: 333px;
+    font-size: 20px;
+}
+.memberbox1 p {margin-left: 20px;
+    padding: 10px;
+    margin-top: 50px
+
+}
+
+.inbox {
+    width: 300px;
+    height: 333px;
+}
+
+.intext {
+    text-align: right;
+    padding: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.intext h2 {
+    font-size: 30px;
+}
+
+.intext p {
+    font-size: 20px;
+}
+
+.rightbox {
+    width: 360px;
+    height: 333px;
+}
+
+.rightbox p {
+    text-align: right;
+    font-size: 20px;
+    padding: 25px;
+
+}
+
+.copy {
+    width: 1500px;
+    height: 55px;
+    margin: 0 auto;
+}

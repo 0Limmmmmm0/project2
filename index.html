@@ -22,30 +22,47 @@
                 <img src="icon/search.png" alt="">
             </div>
 
-            <img src="icon/sublogo.png" id="a" onclick="open">
-            <div class="content">
-                <a href="#">Home</a>
-                <a href="#">Man</a>
-                <a href="#">Women</a>
-                <a href="#">Kids</a>
+            <img src="icon/sublogo.png" id="a" onclick="openNav()">
+
+            <div id="myNav" class="overlay">
+
+
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">Home</a>
+                    <a href="#">Man</a>
+                    <a href="#">Women</a>
+                    <a href="#">Kids</a>
+                    <a href="#">Pre-Owned</a>
+                </div>
             </div>
         </header>
     </div>
 
     <!--slider-->
     <div id="slider">
-        <h1 style="font-size: 150px;">FARFERCH</h1>
+        <div class="move">
+            <!-- <iframe width="100%" height="720"
+                src="https://www.youtube.com/embed/5EYU7A0Lo6c?autoplay=1&amp;mute=1&playlist=5EYU7A0Lo6c&loop=1"
+                title="Your choice, your FARFETCH" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe> -->
+        </div>
+            <h1 style="font-size: 150px; color: white;">FARFERCH</h1>
+
+        <img src="" alt="">
+        <div id="subbox"></div>
     </div>
 
     <!--page1-->
     <nav>
         <ul>
-            <li>CLOTHING</li>
-            <li>SHOES</li>
-            <li>BRANDS</li>
-            <li>BAGS</li>
-            <li>ACCESSORIES</li>
-            <li>HOME-WARE</li>
+            <li><img src="img/brand.png" alt="">CLOTHING</li>
+            <li>SHOES<img src="img/shoes.png" alt=""></li>
+            <li>BR<img src="img/CLOTHING.png" alt=""> ANDS</li>
+            <li><img src="img/bag.png" alt="">BAGS</li>
+            <li>ACCESS <img src="img/acc.png" alt="">ORIES</li>
+            <li><img src="img/home.png" alt="">HOME-WARE</li>
         </ul>
     </nav>
 
@@ -54,28 +71,47 @@
     <div class="container1">
 
         <div class="item1">
-            <img src="img/trend1.jpeg" alt="">
-        </div>
-        <div class="item1_3">
-            <img src="img/trend2.jpeg" alt="">
+            <div class="itemimg">
+                <div class="itemtextbox">
+                    <h2 style="color: white;">Winter: <br>
+                        The Reinterpretation of Ski Wear</h2>
+                </div>
+            </div>
+            <div class="itemimg">
+                <h2></h2>
+            </div>
+            <div class="itemimg">
+                <h2 style="color: white;">2024 S/S<br>
+                    Collection</h2>
+            </div>
         </div>
         <div class="container1_5">
             <h1 style="font-size: 95px; text-align: right;">NEW <br>
                 TREND</h1>
             <div class="item2">
                 <img src="img/boutiqueoutfit.jpg" alt="">
-                <div class="textbox">
-                <p style="font-size: 60px; color: white;">Boutique Outfit</p></div>
+                <div class="texttext">
+                    <p style="font-size: 60px; color: white;">Boutique Outfit</p>
+                </div>
             </div>
+
             <div class="item3">
                 <img src="img/StyleGuide.jpg" alt="">
-                <div class="textbox">
-                <p style="font-size: 60px; color: white;">Stysle Guide</p>
+                <div class="texttext">
+                    <p style="font-size: 60px; color: white;">Stysle Guide</p>
+                </div>
             </div>
+            <div class="item4">
+                <img src="img/comu.jpg" alt="">
+                <div class="texttext">
+                    <p style="font-size: 60px; color: white;">Farfetch Community</p>
+                </div>
             </div>
         </div>
 
-        <button></button>
+    </div>
+
+
 
 
     </div>
@@ -86,16 +122,56 @@
         <div class="container2_3">
 
             <h1 style="font-size: 80px;">BEST ITEMS</h1>
-            <div class="subbox"></div>
+            <div class="subbox">
+                <img src="img/bestitembanner.jpg" alt="">
+            </div>
             <div class="container2_5">
-                <div class="box1">
-                    <img src="img/bestitem1.jpg" class="ich">
+                <!-- <p>View All</p> -->
+                <div class="leftbutton">
+                    <img src="icon/leftbutton.png" alt="">
                 </div>
-                <div class="box2">
-                    <img src="img/bestitem4.jpg" class="ich">
+                <div class="boxview">
+                    <div class="boxcover">
+                        <div class="box">
+                            <img src="img/bestitem1.jpg" class="ich">
+                            <h4>MIU MIU</h4>
+                            <P>Roll-Neck Cashmere-Blend Jumper</P><br>
+                            <p>₩3,250,000</p>
+                        </div>
+                        <div class="box">
+                            <img src="img/bestitem4.jpg" class="ich">
+                            <h4>JACQUENUS</h4>
+                            <P>Le Chiquito Long Tote Bag</P><br>
+                            <p>₩1,400,000</p>
+                        </div>
+                        <div class="box">
+                            <img src="img/bestitem7.jpg" class="ich">
+                            <h4>BALMAIN</h4>
+                            <P>Double-Breasted Twill Maxi Coat</P><br>
+                            <p>₩3,789,000</p>
+                        </div>
+                        <div class="box">
+                            <img src="img/bestitem10.jpg" class="ich">
+                            <h4>VARSACE</h4>
+                            <P>Logo-Embroidered Suede Bomber Jacket</P><br>
+                            <p>₩5,780,000</p>
+                        </div>
+                        <div class="box">
+                            <img src="img/bestitem13.jpg" class="ich">
+                            <h4>MONCLER + RINK OWENS</h4>
+                            <P>Cyclopic Ombré Puffer Jacket</P><br>
+                            <p>₩3,748,000</p>
+                        </div>
+                        <div class="box">
+                            <img src="img/bestitem16.jpg" class="ich">
+                            <h4>BURBERRY</h4>
+                            <P>Strap-Detail Leather Ankle Boots</P><br>
+                            <p>₩3,850,000</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="box">
-                    <img src="img/bestitem7.jpg" class="ich">
+                <div class="rightbutton">
+                    <img src="icon/button.png" alt="">
                 </div>
             </div>
         </div>
@@ -111,14 +187,42 @@
         <div class="container3_2">
             <h1 style="font-size: 120px;">UP TO <br>
                 70% OFF</h1>
+
+
             <div class="imgbox1">
-                <img src="img/salemain.jpg" alt="">
+                <input type="radio" name="skp" id="skp1" checked>
+                <input type="radio" name="skp" id="skp2">
+                <input type="radio" name="skp" id="skp3">
+                <ul id="imgholder" class="img">
+                    <li><img src="img/salemain.jpg"></li>
+                    <li><img src="img/salemain2.jpg"></li>
+                    <li><img src="img/salemain3.jpg"></li>
+                </ul>
+                <div class="bullet">
+                    <label for="skp1">&nbsp;</label>
+                    <label for="skp2">&nbsp;</label>
+                    <label for="skp3">&nbsp;</label>
+                </div>
             </div>
         </div>
         <div class="container3_5">
-            <div class="imgbox2"></div>
+            <div class="imgbox2">
+                <div class="textbox">
+                    <h4>Y/PROJECT</h4>
+                    <P>Logo-Embroidered Organic Cotton Shirt</P>
+                    <p>₩604,000 <span>-50%</span></p>
+                    <P style="">₩483,000</P>
+                </div>
+            </div>
             <hr>
-            <div class="imgbox3"></div>
+            <div class="imgbox3">
+                <div class="textbox2">
+                    <h4>KENNETH JAY LANE</h4>
+                    <P>Chain-Link Hoop Earrings</P>
+                    <p>₩90,000 <span>-50%</span></p>
+                    <P>₩45,000</P>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -133,52 +237,195 @@
 
     <div class="container4">
         <div class="box1">
-            <h1 style="font-size: 80px;">
+            <h1 style="font-size: 85px;">
                 GET A <br>
                 NEWSLETTER !
-            </h1>
-            <button></button>
+            </h1><br>
+
+            <div class="emailcheck">
+
+                <input type="checkbox" name="E-MAIL" value="E-MAIL" id="E-MAIL">
+                <label for="E-MAIL" style="font-size: 23px;">E-MAIL</label>
+            </div>
+
+            <div class="email">
+                <input type="email" placeholder="Your Email Address" name="email" />
+            </div>
+
+            <div class="smscheck">
+
+                <input type="checkbox" name="smscheck" value="smscheck" id="smscheck">
+                <label for="smscheck" style="font-size: 23px;">SMS</label>
+            </div>
+
+            <div class="sms">
+                <select name="num" type="num">
+                    <option value="kr">+500</option>
+                    <option value="네이트" selected="selected">+82</option>
+                </select>
+                <input type="phone" placeholder="phone number" name="phone">
+
+            </div>
+            <div class="btn">
+                <button>SEND!</button>
+            </div>
+
         </div>
+
+
         <div class="box2">
             <img src="icon/chat.png" alt="">
             <h1 style="font-size: 80px; text-align: center;">Ask For <br>
                 Help?</h1><br><br>
-            <p style="font-size: 23px;">Contact Global Customer Service</p>
+            <p style="font-size: 23px;">Contact Global Customer Service</p><br>
+            <p style="font-size: 30px; cursor: pointer;">click!</p>
         </div>
     </div>
-
     <!--footer-->
 
     <footer>
-        <div class="bottom"></div>
+        <div id="bottom" style="color: white;">
+            <div class="copy">
+                <p style="color: white; text-align: center;">'FARFETCH' and the 'FARFETCH' logo are trade marks of
+                    FARFETCH
+                    UK Limited and are registered in numerous jurisdictions around the world. <br>
+                    © Copyright 2024 FARFETCH UK Limited. All rights reserved.</p>
+            </div>
+
+            <div class="memberbox">
+                <h2 style="font-size: 30px;">DISCOUNTS AND <br>
+                    MEMBERSHIP</h2>
+
+            </div>
+
+            <div class="memberbox1">
+                <p>Affiliate program</p>
+                <p>FARFETCH membership</p>
+                <p>Student and Youth discount</p>
+
+            </div>
+
+            <div class="inbox">
+                <div class="intext">
+                    <h2>INTRODUCTION</h2><br>
+                    <p>About us</p><br>
+                    <p>Investors</p>
+                </div>
+
+            </div>
+            <div class="rightbox">
+                <p>The Bower, 211 Old Street, London, EC1V 9NR, United Kingdom</p>
+                <p>Tel. 080 880 046</p>
+                <p>Business Registration Number
+                    06400760</p>
+
+            </div>
+            <div class="cubox">
+                <h2 style="font-size: 30px;">CUSTOMER SERVICE</h3>
+
+
+            </div>
+            <div class="cubox1">
+                <p>Q&A</p>
+                <p>Orders and delivery</p>
+                <p>Returns and pricing</p>
+                <p>Crytocurrency payments</p>
+
+            </div>
+
+            <div class="cubox2">
+                <p>Promotion terms and conditions</p>
+                <p>How to shop</p>
+                <p>Korea-Europe FTA duty benefits</p>
+
+            </div>
+            <div class="icon">
+
+                <a href="https://blog.naver.com/farfetch_korea">
+                    <img src="icon/blog.png" alt=""></a>
+                <a href="https://www.facebook.com/Farfetch/">
+                    <img src="icon/face.png" alt=""></a>
+                <a href="https://www.instagram.com/farfetch/">
+                    <img src="icon/inst.png" alt=""></a>
+                <a href="https://twitter.com/farfetch">
+                    <img src="icon/twi.png" alt=""></a>
+                <a href="https://www.youtube.com/user/farfetchdotcom">
+                    <img src="icon/you.png" alt=""></a>
+                <a href="https://www.pinterest.pt/farfetch/">
+                    <img src="icon/pin.png" alt=""></a>
+
+            </div>
+
+
+        </div>
+
+
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
     <script>
+
+        // clickslider
+        $(".rightbutton").click(function () {
+            $(".boxcover").stop().animate({ 'margin-left': '-33.3%' }, 800, function () {
+                $('.box:first').appendTo('.boxcover');
+                $('.boxcover').css({ 'margin-left': 0 });
+            });
+
+        })
+
+
+        $(".leftbutton").click(function () {
+            $('.box:last').prependTo('.boxcover');
+            $('.boxcover').css({ 'margin-left': '-33.3%' });
+            $(".boxcover").stop().animate({ 'margin-left': 0 }, 800)
+        })
+
         /*best items 1*/
         const images = document.getElementsByClassName("ich");
-        let img_array = [["img/bestitem1.jpg","img/bestitem3.jpg", "img/bestitem2.jpg"],["img/bestitem4.jpg","img/bestitem5.jpg","img/bestitem6.jpg"],["img/bestitem7.jpg","img/bestitem8.jpg","img/bestitem9.jpg"]];
+        let img_array = [["img/bestitem1.jpg", "img/bestitem3.jpg", "img/bestitem2.jpg"], ["img/bestitem4.jpg", "img/bestitem5.jpg", "img/bestitem6.jpg"], ["img/bestitem7.jpg", "img/bestitem8.jpg", "img/bestitem9.jpg"]];
 
         let j = 0;
 
-        function slide(){
+        function slide() {
             j++;
-            if(j >= img_array.length){
-                j=0;
+            if (j >= img_array.length) {
+                j = 0;
             }
-            for(var i in img_array){
+            for (var i in img_array) {
                 images[i].src = img_array[i][j];
             }
         }
 
-        setInterval(slide, 1000);
+        // setInterval(slide, 1000);
+
+
 
         /*best items 2*/
 
-        // let images=[["img/bestitem1.jpg", "img/bestitem3.jpg", "img/bestitem2.jpg"],["img/bestitem4.jpg", "img/bestitem5.jpg", "img/bestitem6.jpg"]]
+        const imgbox2 = document.getElementsByClassName("imgbox2")[0];
+        const imgbox3 = document.getElementsByClassName("imgbox3")[0];
 
-        // for(let i=0; i<images.length; i++){
+        imgbox2.addEventListener("mouseover", mve);
+        imgbox2.addEventListener("mouseout", mve2);
 
-        // }
+        function mve() {
+            imgbox2.style.backgroundImage = "url('img/saleside1(1.jpg')"
+        }
+        function mve2() {
+            imgbox2.style.backgroundImage = "url('img/saleside1.jpg')"
+        }
+
+        imgbox3.addEventListener("mouseover", mve3);
+        imgbox3.addEventListener("mouseout", mve4);
+
+        function mve3() {
+            imgbox3.style.backgroundImage = "url('img/saleside2(1.jpg')"
+        }
+        function mve4() {
+            imgbox3.style.backgroundImage = "url('img/saleside2.jpg')"
+        }
     </script>
 </body>
 
