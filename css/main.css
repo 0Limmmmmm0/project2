@@ -42,14 +42,24 @@ position: absolute;} */
 
 
 /*page1*/
+
+#concon {
+    width: 100%;
+    height: 1080px;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
 nav {
     width: 1500px;
     height: 170px;
+    
     /* background-color: #eee; */
     margin: 0 auto;
-    margin-top: 150px;
-    position: relative;
-    bottom: 70px;
+    /* margin-top: 150px; */
+    /* position: relative; */
+    /* bottom: 150px; */
 
 
 }
@@ -60,46 +70,61 @@ nav li {
     float: left;
     text-align: center;
     line-height: 30px;
-    background: rgb(212, 254, 255);
     font-size: 110px;
-    line-height: 150px;/
+    line-height: 150px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 nav li:nth-of-type(1) {
     text-align: right;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
 
 }
 
 nav li:nth-of-type(2) {
     text-align: left;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
     width: 760px;
 }
 
 
 
 nav li:nth-of-type(3) {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+    border-bottom: 3px solid black;
+    border-top: 3px solid black;
 }
 
 nav li:nth-of-type(4) {
     float: right;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
     text-align: left;
     width: 761px;
 }
 
 nav li:nth-of-type(5) {
     text-align: left;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
     width: 1000px;
 }
 
 nav li:nth-of-type(6) {
     text-align: right;
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+}
+
+nav li img {
+    width: 0;
+    height: 140px;
+    transform: scaleX(0);
+    transition: 1s;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+nav li:hover img {
+    width: 230px;
+   transform: scaleX(1)
 }
 
 .mini {
@@ -124,7 +149,7 @@ nav li:nth-of-type(6) {
 
 .container1_5 h1 {
     height: 305px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 
@@ -222,6 +247,7 @@ background: rgba(0, 0, 0, 0.3);}
     position: absolute;
     cursor: pointer;
     top: 0;
+    border-left: 3px solid white;
 }
 
 .texttext p {
@@ -267,6 +293,14 @@ background: rgba(0, 0, 0, 0.3);}
     border-bottom: 9px solid black;
 }
 
+.container2_1 {
+    width: 100%;
+    height: 320px;
+    border-bottom: 6px solid black;
+}
+
+
+
 .container2_3 {
     margin: 0 auto;
     margin-top: 68px;
@@ -292,6 +326,23 @@ background: rgba(0, 0, 0, 0.3);}
     width: 100%;
     height: 100%;
     overflow: hidden;
+}
+
+.boxview > .vitext{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    float: right;
+    text-align: center;
+    top: 45px;
+    font-size: 28px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: gray;
+}
+
+.boxview > .vitext:hover {
+    color: rgb(0, 0, 0);
 }
 
 .boxcover {
@@ -384,7 +435,7 @@ background: rgba(0, 0, 0, 0.3);}
     width: 100%;
     height: 75px;
     background: black;
-    margin-top: 68px;
+    margin-top: 100px;
 }
 
 .saletop h3 {
@@ -468,19 +519,19 @@ ul.img li {
 
 .imgbox1 input[type=radio]:nth-child(1):checked~ul.img>li:nth-child(1) {
     left: 0;
-    transition: 0.5s;
+    transition: 1.2s;
     z-index: 1;
 }
 
 .imgbox1 input[type=radio]:nth-child(2):checked~ul.img>li:nth-child(2) {
     left: 0;
-    transition: 0.5s;
+    transition: 1.2s;
     z-index: 1;
 }
 
 .imgbox1 input[type=radio]:nth-child(3):checked~ul.img>li:nth-child(3) {
     left: 0;
-    transition: 0.5s;
+    transition: 1.2s;
     z-index: 1;
 }
 
@@ -514,20 +565,30 @@ ul.img li {
     position: absolute;
     background: rgba(0, 0, 0, 0.7);
     width: 358px;
-    height: 100px;
+    height: 120px;
     color: white;
-    top: 330px;
+    top: 320px;
+    line-height: 25px;
+    padding-top: 5px;
+    padding-left: 10px;
 }
+
 
 .textbox:hover {
     color: rgb(0, 0, 0);
+    background: rgba(255,255,255,0.8);
 }
 
+.textbox span {
+    font-weight: bold;
+    font-size: 20px;
+color: rgb(250, 0, 0);
+text-decoration: none;}
 
 hr {
     width: 640px;
     border: none;
-    height: 1px;
+    height: 2px;
     background: black;
 }
 
@@ -575,7 +636,7 @@ hr {
 
 .container4 .box1 {
     width: 740px;
-    height: 805px;
+    height: 810px;
     background: rosybrown;
     /* display: flex; */
     margin-top: 60px;
@@ -593,13 +654,13 @@ hr {
 .container4 .box2 {
     width: 730px;
     height: 805px;
-    background: rosybrown;
     /* display: flex; */
     margin-top: 60px;
     margin-right: 10px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    border: 3px solid black;
 }
 
 .container4 .box2 img {
@@ -608,13 +669,49 @@ hr {
     margin-top: 50px;
 }
 
+.container4 .box2 img:hover {opacity: 0.8;}
+
+.cl {
+    border: none;
+    text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 8px;
+    font-weight: bold;
+}
+
+.cl:hover{
+    opacity: 0.5;
+}
+
+.cl > span {
+    font-size: 28px;
+}
+
+.cl > img.ic {
+    width: 31px;
+    height: 36px;
+    float: right;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+    /* margin-left: 10px; */
+}
+
+
 
 
 .emailcheck {
     position: relative;
     left: 70px;
     padding-bottom: 30px;
+    display: flex;
 }
+
+.emailcheck p {line-height: 25px;
+    margin-left: 10px;}
 
 
 input {
@@ -649,7 +746,11 @@ input[type=number] {
     left: 70px;
     padding-top: 50px;
     padding-bottom: 30px;
+    display: flex;
 }
+
+.smscheck p {line-height: 25px;
+margin-left: 10px;}
 
 .sms {
     display: flex;

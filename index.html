@@ -22,7 +22,10 @@
                 <img src="icon/search.png" alt="">
             </div>
 
-            <img src="icon/sublogo.png" id="a" onclick="openNav()">
+            <div class="subbutton">
+
+                <img src="icon/sublogo.png" id="a" onclick="openNav()">
+            </div>
 
             <div id="myNav" class="overlay">
 
@@ -34,6 +37,7 @@
                     <a href="#">Women</a>
                     <a href="#">Kids</a>
                     <a href="#">Pre-Owned</a>
+                    <a href="#"></a>
                 </div>
             </div>
         </header>
@@ -48,23 +52,25 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe> -->
         </div>
-            <h1 style="font-size: 150px; color: white;">FARFERCH</h1>
+        <h1 style="font-size: 150px; color: white;">FARFERCH</h1>
 
         <img src="" alt="">
         <div id="subbox"></div>
     </div>
 
     <!--page1-->
+    <div id="concon">
     <nav>
         <ul>
             <li><img src="img/brand.png" alt="">CLOTHING</li>
-            <li>SHOES<img src="img/shoes.png" alt=""></li>
-            <li>BR<img src="img/CLOTHING.png" alt=""> ANDS</li>
-            <li><img src="img/bag.png" alt="">BAGS</li>
-            <li>ACCESS <img src="img/acc.png" alt="">ORIES</li>
-            <li><img src="img/home.png" alt="">HOME-WARE</li>
+            <li>SH<img src="img/shoes1.png" alt="">OES</li>
+            <li>BR<img src="img/CLOTHING.png" alt="">ANDS</li>
+            <li><img src="img/bag1.png" alt="">BAGS<img src="img/bag2.png" alt=""></li>
+            <li>ACCESS<img src="img/acc.png" alt="">ORIES</li>
+            <li><img src="img/home2.png" alt="">HOME-WARE<img src="img/home1.png" alt=""></li>
         </ul>
     </nav>
+</div>
 
     <!--page2-->
 
@@ -119,6 +125,7 @@
     <!--page3-->
 
     <div class="container2">
+        <div class="container2_1">
         <div class="container2_3">
 
             <h1 style="font-size: 80px;">BEST ITEMS</h1>
@@ -126,12 +133,17 @@
                 <img src="img/bestitembanner.jpg" alt="">
             </div>
             <div class="container2_5">
+                
                 <!-- <p>View All</p> -->
                 <div class="leftbutton">
                     <img src="icon/leftbutton.png" alt="">
                 </div>
                 <div class="boxview">
+                    <div class="vitext">
+                    <h5>View All</h5>
+                </div>
                     <div class="boxcover">
+                        
                         <div class="box">
                             <img src="img/bestitem1.jpg" class="ich">
                             <h4>MIU MIU</h4>
@@ -176,6 +188,7 @@
             </div>
         </div>
     </div>
+    </div>
 
     <!--page4-->
     <div class="saletop">
@@ -208,19 +221,20 @@
         <div class="container3_5">
             <div class="imgbox2">
                 <div class="textbox">
-                    <h4>Y/PROJECT</h4>
+                    <h4 style="font-size: 20px;">Y/PROJECT</h4>
                     <P>Logo-Embroidered Organic Cotton Shirt</P>
-                    <p>₩604,000 <span>-50%</span></p>
-                    <P style="">₩483,000</P>
+                    <p style="font-size: 15px; text-decoration: line-through;">₩604,000
+                        <span>-50%</span></p>
+                    <P style="font-size: 15px;">₩483,000</P>
                 </div>
             </div>
             <hr>
             <div class="imgbox3">
-                <div class="textbox2">
-                    <h4>KENNETH JAY LANE</h4>
+                <div class="textbox">
+                    <h4 style="font-size: 20px;">KENNETH JAY LANE</h4>
                     <P>Chain-Link Hoop Earrings</P>
-                    <p>₩90,000 <span>-50%</span></p>
-                    <P>₩45,000</P>
+                    <p style="font-size: 15px;">₩90,000 <span>-50%</span></p>
+                    <P style="font-size: 15px;">₩45,000</P>
                 </div>
             </div>
         </div>
@@ -245,7 +259,7 @@
             <div class="emailcheck">
 
                 <input type="checkbox" name="E-MAIL" value="E-MAIL" id="E-MAIL">
-                <label for="E-MAIL" style="font-size: 23px;">E-MAIL</label>
+                <label for="E-MAIL" style="font-size: 23px;"><p>E-MAIL</p></label>
             </div>
 
             <div class="email">
@@ -255,7 +269,7 @@
             <div class="smscheck">
 
                 <input type="checkbox" name="smscheck" value="smscheck" id="smscheck">
-                <label for="smscheck" style="font-size: 23px;">SMS</label>
+                <label for="smscheck" style="font-size: 23px;"><p>SMS</p></label>
             </div>
 
             <div class="sms">
@@ -277,8 +291,11 @@
             <img src="icon/chat.png" alt="">
             <h1 style="font-size: 80px; text-align: center;">Ask For <br>
                 Help?</h1><br><br>
-            <p style="font-size: 23px;">Contact Global Customer Service</p><br>
-            <p style="font-size: 30px; cursor: pointer;">click!</p>
+            <p style="font-size: 23px; letter-spacing: 3px;">Contact Global Customer Service</p><br>
+            <div class="cl">
+            <img src="icon/arrow.png" class="ic">
+            <span>click!</span>
+        </div>
         </div>
     </div>
     <!--footer-->
@@ -299,16 +316,16 @@
             </div>
 
             <div class="memberbox1">
-                <p>Affiliate program</p>
-                <p>FARFETCH membership</p>
-                <p>Student and Youth discount</p>
+                <p>Affiliate Program</p>
+                <p>FARFETCH Membership</p>
+                <p>Student And Youth discount</p>
 
             </div>
 
             <div class="inbox">
                 <div class="intext">
                     <h2>INTRODUCTION</h2><br>
-                    <p>About us</p><br>
+                    <p>About Us</p><br>
                     <p>Investors</p>
                 </div>
 
@@ -327,16 +344,16 @@
             </div>
             <div class="cubox1">
                 <p>Q&A</p>
-                <p>Orders and delivery</p>
-                <p>Returns and pricing</p>
-                <p>Crytocurrency payments</p>
+                <p>Orders And Delivery</p>
+                <p>Returns And Pricing</p>
+                <p>Crytocurrency Payments</p>
 
             </div>
 
             <div class="cubox2">
-                <p>Promotion terms and conditions</p>
-                <p>How to shop</p>
-                <p>Korea-Europe FTA duty benefits</p>
+                <p>Promotion Terms And Conditions</p>
+                <p>How To Shop</p>
+                <p>Korea-Europe FTA Duty Benefits</p>
 
             </div>
             <div class="icon">
@@ -366,6 +383,15 @@
 
     <script>
 
+function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+
+
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+
         // clickslider
         $(".rightbutton").click(function () {
             $(".boxcover").stop().animate({ 'margin-left': '-33.3%' }, 800, function () {
@@ -383,26 +409,26 @@
         })
 
         /*best items 1*/
-        const images = document.getElementsByClassName("ich");
-        let img_array = [["img/bestitem1.jpg", "img/bestitem3.jpg", "img/bestitem2.jpg"], ["img/bestitem4.jpg", "img/bestitem5.jpg", "img/bestitem6.jpg"], ["img/bestitem7.jpg", "img/bestitem8.jpg", "img/bestitem9.jpg"]];
+        const divs = $('.boxcover .box');
+        let images = [["img/bestitem1.jpg", "img/bestitem3.jpg", "img/bestitem2.jpg"], ["img/bestitem4.jpg", "img/bestitem5.jpg", "img/bestitem6.jpg"], ["img/bestitem7.jpg", "img/bestitem8.jpg", "img/bestitem9.jpg"], ["img/bestitem10.jpg", "img/bestitem11.jpg", "img/bestitem12.jpg"], ["img/bestitem13.jpg", "img/bestitem14.jpg", "img/bestitem15.jpg"], ["img/bestitem16.jpg", "img/bestitem17.jpg", "img/bestitem18.jpg"]];
 
         let j = 0;
 
-        function slide() {
+        function chlmg() {
             j++;
-            if (j >= img_array.length) {
+            if (j >= images[0].length) {
                 j = 0;
             }
-            for (var i in img_array) {
-                images[i].src = img_array[i][j];
+            for (var i in images) {
+                divs.eq(i).find('img').attr('src', images[i][j]);
             }
         }
 
-        // setInterval(slide, 1000);
+        setInterval(chlmg, 1000);
 
 
 
-        /*best items 2*/
+        /*sale */
 
         const imgbox2 = document.getElementsByClassName("imgbox2")[0];
         const imgbox3 = document.getElementsByClassName("imgbox3")[0];
