@@ -2,11 +2,22 @@
 
 #slider {
     width: 100%;
-    height: 718px;
-    background: blue;
+    height: 1500px;
+    background-image: url(../img/slider1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    background-size: contain;
+}
+
+.fix {
+    width: 100%;
+    height: 830px;
     display: flex;
-    /* position: relative; */
     align-items: flex-end;
+    position: sticky;
+    top: 0;
+
 }
 
 /* .move {
@@ -27,18 +38,36 @@ min-height: 100%;
 z-index: 1;
 position: absolute;} */
 
-.sltext {position: absolute;
+/* .sltext {position: absolute;
     top: 0;
-}
+} */
+
 
 #subbox {
     width: 336px;
-    height: 29px;
+    height: 25px;
     background: black;
     margin: 3%;
+    position: relative;
+    overflow: hidden;
+    right: 40px;
+    bottom: 32px;
 }
 
+#subbox .cover  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 1;
+}
 
+#subbox img {
+    width: 100%;
+}
 
 
 /*page1*/
@@ -73,7 +102,10 @@ nav li {
     font-size: 110px;
     line-height: 150px;
     cursor: pointer;
-    font-weight: bold;
+    font-family: "Chakra Petch", sans-serif;
+    /* font-weight: 400;
+    font-style: normal; */
+
 }
 
 nav li:nth-of-type(1) {
@@ -151,6 +183,13 @@ nav li:hover img {
     height: 305px;
     margin-top: 15px;
     margin-right: 10px;
+    font-family: "Noto Serif Sinhala", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  
 }
 
 /* button {width: 100px;
@@ -168,11 +207,67 @@ background: red;}
     overflow: hidden;
 }
 
-.itemtextbox {width: 740px;
-height: 250px;
-background: rgba(0, 0, 0, 0.3);}
+.itemtextbox {
+    width: 740px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 0;
+    top: auto;
+    bottom: 0;
+    right: 0;
+}
 
-.itemimg h2 {font-size: 60px;}
+.itemimg h2 {font-size: 55px;
+padding: 15px;
+font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.itemtextbox2{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    bottom: 50%;
+    right: 0;
+    line-height: 130px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 740px;
+    height: 300px;
+}
+
+.itemtextbox2 h2 {
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+.itemtextbox3 h2{
+font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.itemtextbox3 {
+    position: absolute;
+    left: 0;
+    top: 30%;
+    bottom: 50%;
+    right: 0;
+    line-height: 100px;
+    padding: 10px;
+}
 
 .itemimg {
     position: absolute;
@@ -227,7 +322,7 @@ background: rgba(0, 0, 0, 0.3);}
     width: 760px;
     height: 199px;
     line-height: 200px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     overflow: hidden;
     position: relative;
     display: inline-block;
@@ -252,6 +347,14 @@ background: rgba(0, 0, 0, 0.3);}
 
 .texttext p {
     margin-left: 10px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    white-space:nowrap
+    
 }
 
 .texttext:hover {
@@ -265,7 +368,7 @@ background: rgba(0, 0, 0, 0.3);}
     width: 760px;
     height: 199px;
     line-height: 200px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     overflow: hidden;
     position: relative;
     display: inline-block;
@@ -277,7 +380,7 @@ background: rgba(0, 0, 0, 0.3);}
     width: 760px;
     height: 199px;
     line-height: 200px;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     overflow: hidden;
     position: relative;
     /* display: inline-block; */
@@ -312,12 +415,30 @@ background: rgba(0, 0, 0, 0.3);}
     align-items: flex-end;
 }
 
+.container2_3 h1 {
+    font-family: "Noto Serif Sinhala", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
 .container2_5 {
     display: flex;
     justify-content: center;
     width: 1500px;
     align-items: center;
 
+}
+
+.vitext {
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -363,7 +484,19 @@ background: rgba(0, 0, 0, 0.3);}
 .box {
     height: 550px;
     margin: 2%;
+    white-space:nowrap;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 
+}
+
+.box h4 {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .box img:hover {
@@ -440,6 +573,13 @@ background: rgba(0, 0, 0, 0.3);}
 
 .saletop h3 {
     white-space: nowrap;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 70px;
 }
 
 .container3 {
@@ -457,12 +597,17 @@ background: rgba(0, 0, 0, 0.3);}
 
 .container3_2 h1 {
     line-height: 200px;
+    font-family: "Noto Serif Sinhala", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 
 .imgbox1 {
     width: 863px;
     height: 605px;
-    background: navy;
     overflow: hidden;
     position: relative;
     margin-top: 30px;
@@ -571,6 +716,12 @@ ul.img li {
     line-height: 25px;
     padding-top: 5px;
     padding-left: 10px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 
@@ -619,8 +770,15 @@ hr {
     background: black;
 }
 
-.salebottom {
+.salebottom h3 {
     white-space: nowrap;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 70px;
 }
 
 /*page5*/
@@ -661,6 +819,26 @@ hr {
     align-items: center;
     flex-direction: column;
     border: 3px solid black;
+}
+
+.container4 .box2 h1 {
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 120px;
+}
+
+.container4 .box2 p {
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 242;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
 }
 
 .container4 .box2 img {
@@ -711,7 +889,14 @@ hr {
 }
 
 .emailcheck p {line-height: 25px;
-    margin-left: 10px;}
+    margin-left: 10px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+    }
 
 
 input {
@@ -733,6 +918,13 @@ input[type=email] {
     border: none;
     font-size: 20px;
     padding-left: 20px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 70px;
 }
 
 input[type=number] {
@@ -750,7 +942,13 @@ input[type=number] {
 }
 
 .smscheck p {line-height: 25px;
-margin-left: 10px;}
+margin-left: 10px;
+font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;}
 
 .sms {
     display: flex;
@@ -768,6 +966,13 @@ select[type=num] {
     font-size: 20px;
     padding-left: 20px;
     margin-right: 20px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 70px;
     
 }
 
@@ -778,6 +983,13 @@ input[type=phone] {
     border: none;
     font-size: 20px;
     padding-left: 20px;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    line-height: 70px;
 }
 
 .btn {
@@ -796,6 +1008,12 @@ button {
     font-size: 25px;
     font-weight: bold;
     cursor: pointer;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 button:hover {
