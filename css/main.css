@@ -54,7 +54,7 @@ position: absolute;} */
     bottom: 32px;
 }
 
-#subbox .cover  {
+#subbox .cover {
     content: "";
     position: absolute;
     top: 0;
@@ -83,7 +83,7 @@ position: absolute;} */
 nav {
     width: 1500px;
     height: 170px;
-    
+
     /* background-color: #eee; */
     margin: 0 auto;
     /* margin-top: 150px; */
@@ -156,7 +156,7 @@ nav li img {
 
 nav li:hover img {
     width: 230px;
-   transform: scaleX(1)
+    transform: scaleX(1)
 }
 
 .mini {
@@ -188,8 +188,8 @@ nav li:hover img {
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-  
+        "wdth" 100;
+
 }
 
 /* button {width: 100px;
@@ -218,17 +218,18 @@ background: red;}
     right: 0;
 }
 
-.itemimg h2 {font-size: 55px;
-padding: 15px;
-font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+.itemimg h2 {
+    font-size: 55px;
+    padding: 15px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
-.itemtextbox2{
+.itemtextbox2 {
     position: absolute;
     left: 0;
     top: 30%;
@@ -242,20 +243,21 @@ font-family: "Noto Serif", serif;
 
 .itemtextbox2 h2 {
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 
 }
-.itemtextbox3 h2{
-font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+
+.itemtextbox3 h2 {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
@@ -348,13 +350,12 @@ font-family: "Noto Serif", serif;
 .texttext p {
     margin-left: 10px;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-    white-space:nowrap
-    
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    white-space: nowrap
 }
 
 .texttext:hover {
@@ -421,7 +422,7 @@ font-family: "Noto Serif", serif;
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
 }
 
 .container2_5 {
@@ -434,11 +435,11 @@ font-family: "Noto Serif", serif;
 
 .vitext {
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
@@ -449,7 +450,7 @@ font-family: "Noto Serif", serif;
     overflow: hidden;
 }
 
-.boxview > .vitext{
+.boxview>.vitext {
     width: 100px;
     height: 50px;
     position: relative;
@@ -462,17 +463,17 @@ font-family: "Noto Serif", serif;
     color: gray;
 }
 
-.boxview > .vitext:hover {
+.boxview>.vitext:hover {
     color: rgb(0, 0, 0);
 }
 
 .boxcover {
     width: 200%;
     display: flex;
-    
+
 }
 
-.boxcover>div{
+.boxcover>div {
     width: 14.6%;
 }
 
@@ -484,13 +485,13 @@ font-family: "Noto Serif", serif;
 .box {
     height: 550px;
     margin: 2%;
-    white-space:nowrap;
+    white-space: nowrap;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 
 }
 
@@ -505,6 +506,7 @@ font-family: "Noto Serif", serif;
 
 
 }
+
 /* 
 
 .box2 img:hover {
@@ -551,14 +553,22 @@ font-family: "Noto Serif", serif;
     height: 91px;
 }
 
-.leftbutton {cursor: pointer;}
+.leftbutton {
+    cursor: pointer;
+}
 
-.leftbutton:hover {opacity: 0.6;}
+.leftbutton:hover {
+    opacity: 0.6;
+}
 
 
-.rightbutton {cursor: pointer;}
+.rightbutton {
+    cursor: pointer;
+}
 
-.rightbutton:hover {opacity: 0.6;}
+.rightbutton:hover {
+    opacity: 0.6;
+}
 
 
 
@@ -574,11 +584,11 @@ font-family: "Noto Serif", serif;
 .saletop h3 {
     white-space: nowrap;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 70px;
 }
 
@@ -602,7 +612,7 @@ font-family: "Noto Serif", serif;
     font-weight: 800;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
+        "wdth" 100;
 }
 
 .imgbox1 {
@@ -717,24 +727,35 @@ ul.img li {
     padding-top: 5px;
     padding-left: 10px;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
-
 
 .textbox:hover {
     color: rgb(0, 0, 0);
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.textbox .price {
+    text-decoration: line-through;
+    display: inline;
 }
 
 .textbox span {
     font-weight: bold;
     font-size: 20px;
-color: rgb(250, 0, 0);
-text-decoration: none;}
+    color: rgb(250, 0, 0);
+    text-decoration: none;
+    
+}
+
+.textbox .price2 {
+    text-decoration: line-through;
+    display: inline;
+}
 
 hr {
     width: 640px;
@@ -773,11 +794,11 @@ hr {
 .salebottom h3 {
     white-space: nowrap;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 70px;
 }
 
@@ -807,6 +828,13 @@ hr {
     margin-left: 30px;
     line-height: 130px;
     letter-spacing: 1px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 242;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-weight: bold;
 }
 
 .container4 .box2 {
@@ -823,21 +851,21 @@ hr {
 
 .container4 .box2 h1 {
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 120px;
 }
 
 .container4 .box2 p {
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 242;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 242;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 
 }
 
@@ -847,7 +875,9 @@ hr {
     margin-top: 50px;
 }
 
-.container4 .box2 img:hover {opacity: 0.8;}
+.container4 .box2 img:hover {
+    opacity: 0.8;
+}
 
 .cl {
     border: none;
@@ -861,15 +891,26 @@ hr {
     font-weight: bold;
 }
 
-.cl:hover{
+.cl span {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 242;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+    font-weight: bold;
+
+}
+
+.cl:hover {
     opacity: 0.5;
 }
 
-.cl > span {
+.cl>span {
     font-size: 28px;
 }
 
-.cl > img.ic {
+.cl>img.ic {
     width: 31px;
     height: 36px;
     float: right;
@@ -888,15 +929,16 @@ hr {
     display: flex;
 }
 
-.emailcheck p {line-height: 25px;
+.emailcheck p {
+    line-height: 25px;
     margin-left: 10px;
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-weight: 476;
     font-style: normal;
     font-variation-settings:
-      "wdth" 100;
-    }
+        "wdth" 100;
+}
 
 
 input {
@@ -919,11 +961,11 @@ input[type=email] {
     font-size: 20px;
     padding-left: 20px;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 70px;
 }
 
@@ -941,14 +983,16 @@ input[type=number] {
     display: flex;
 }
 
-.smscheck p {line-height: 25px;
-margin-left: 10px;
-font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;}
+.smscheck p {
+    line-height: 25px;
+    margin-left: 10px;
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
 
 .sms {
     display: flex;
@@ -967,13 +1011,16 @@ select[type=num] {
     padding-left: 20px;
     margin-right: 20px;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 70px;
-    
+    appearance: none;
+    background: url('../icon/bottom.png') no-repeat right 24px center;
+    background-color: white;
+
 }
 
 input[type=phone] {
@@ -984,11 +1031,11 @@ input[type=phone] {
     font-size: 20px;
     padding-left: 20px;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
     line-height: 70px;
 }
 
@@ -1009,11 +1056,11 @@ button {
     font-weight: bold;
     cursor: pointer;
     font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 476;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-optical-sizing: auto;
+    font-weight: 476;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 button:hover {

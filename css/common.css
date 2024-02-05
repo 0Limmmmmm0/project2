@@ -9,6 +9,8 @@ ol {
     list-style: none;
 }
 
+
+
 /*header*/
 header {
     width: 1500px;
@@ -130,6 +132,12 @@ footer {
     line-height: 350px;
     text-align: center;
     cursor: pointer;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     /* display: flex; */
 }
 
@@ -236,6 +244,13 @@ footer {
     position: relative;
     top: 60px;
     cursor: pointer;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-weight: bold;
 }
 
 .memberbox1 {
@@ -293,10 +308,11 @@ footer {
     font-size: 30px;
     font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-weight: 242;
+  font-weight: 476;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
+    font-weight: bold;
 }
 
 .intext p {
@@ -332,5 +348,11 @@ footer {
     width: 1500px;
     height: 45px;
     margin: 0 auto;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 476;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
     
 }
