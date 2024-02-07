@@ -53,7 +53,7 @@ ol {
 
 
     .overlay {
-        height: 1000px;
+        height: 1100px;
         width: 0;
         position: fixed;
         z-index: 103;
@@ -128,8 +128,8 @@ ol {
         width: 1500px;
         height: 100%;
         display: flex;
-        flex-wrap: wrap-reverse;
-        align-items: flex-end;
+        flex-wrap: wrap;
+        align-items: flex-start;
         justify-content: center;
     }
 
@@ -151,6 +151,7 @@ ol {
     .cubox h2 {
         position: relative;
         right: 29px;
+        font-size: 30px;
     }
 
     .cubox1 {
@@ -258,6 +259,7 @@ ol {
         font-variation-settings:
             "wdth" 100;
         font-weight: bold;
+        font-size: 30px;
     }
 
     .memberbox1 {

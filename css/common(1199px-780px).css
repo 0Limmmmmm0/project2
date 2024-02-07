@@ -1,0 +1,360 @@
+@media (max-width:1199px) and (min-width:780px){
+        #wrap {
+            width: 100%;
+            padding: 0;
+            margin: 0 auto;
+        }
+    
+        /*header*/
+        header {
+            width: 100%;
+            height: 70px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    
+    
+    
+        header #c a {
+            padding: 15px;
+            text-decoration: none;
+            display: block;
+        }
+    
+        header #c a:hover {
+            background-color: #eee;
+            color: #666;
+            text-decoration: none;
+            display: block;
+        }
+    
+        #a {}
+    
+        img {
+            cursor: pointer;
+        }
+    
+    
+    
+    
+        .overlay {
+            height: 1000px;
+            width: 0;
+            position: fixed;
+            z-index: 103;
+            top: 0;
+            right: 0;
+            background-color: rgb(0, 0, 0);
+            background-color: rgba(0, 0, 0, 0.9);
+            /* background-image: url(../img/bestitem1.jpg); */
+            overflow-x: hidden;
+            transition: 0.8s;
+        }
+    
+    
+        .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 20%;
+            text-align: right;
+            display: block;
+            margin-left: 20px;
+            line-height: 100px;
+            white-space: nowrap;
+    
+        }
+    
+    
+        .overlay a {
+            padding: 10px;
+            /* line-height: 160%; */
+            text-decoration: none;
+            font-size: 50px;
+            color: #ffffff;
+            transition: 0.3s;
+            font-weight: bold;
+            display: block;
+        }
+    
+    
+        .overlay a:hover,
+        .overlay a:focus {
+            color: #535353;
+        }
+    
+        .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+        }
+    
+        header .lefticon img {
+            width: 35px;
+            height: 35px;
+            padding: 10px;
+        }
+    
+        header img {
+            width: 60px;
+            height: 60px;
+        }
+    
+        /*footer*/
+    
+        footer {
+            background: black;
+            width: 100%;
+            height: auto;
+        }
+    
+        #bottom {
+            margin: 0 auto;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            /* justify-content: center; */
+        }
+    
+        .cubox {
+            width: 25%;
+            height: 360px;
+            line-height: 80px;
+            text-align: center;
+            cursor: pointer;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 476;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+                word-break:normal;
+            /* display: flex; */
+            padding-left: 20px;
+            text-overflow:clip;
+        }
+    
+        .cubox h2 {
+            position: relative;
+            right: 29px;
+            top: 100px;
+            
+        }
+    
+        .cubox1 {
+            width: 26%;
+            height: 360px;
+            font-size: 20px;
+            margin-left: 20px;
+            cursor: pointer;
+        }
+    
+        .cubox1 p:nth-of-type(1):hover {
+            color: #666;
+        }
+    
+        .cubox1 p:nth-of-type(2):hover {
+            color: #666;
+        }
+    
+        .cubox1 p:nth-of-type(3):hover {
+            color: #666;
+        }
+    
+        .cubox1 p:nth-of-type(4):hover {
+            color: #666;
+        }
+    
+        .cubox1 p {
+            padding: 10px;
+            margin-top: 30px;
+            position: relative;
+            right: 30px;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 242;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    
+        .cubox2 {
+            width: 23%;
+            height: 360px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    
+        .cubox2 p:nth-of-type(1):hover {
+            color: #666;
+        }
+    
+        .cubox2 p:nth-of-type(2):hover {
+            color: #666;
+        }
+    
+        .cubox2 p:nth-of-type(3):hover {
+            color: #666;
+        }
+    
+        .cubox2 p {
+            padding: 25px;
+            position: relative;
+            top: 40px;
+            right: 35px;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 242;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    
+    
+        .icon {
+            width: 20%;
+            height: 400px;
+    
+        }
+    
+        .icon img {
+            padding: 10px 0 10px 9px;
+            margin-top: 50px;
+        }
+    
+        .icon img:hover {
+            opacity: 0.5;
+        }
+    
+        .memberbox {
+            width: 40%;
+            height: 333px;
+            line-height: 50px;
+            text-align: left;
+            cursor: pointer;
+        }
+    
+        .memberbox h2 {
+            padding: 55px;
+            position: relative;
+            top: 60px;
+            cursor: pointer;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 476;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+            font-weight: bold;
+        }
+        
+        .memberbox1 {
+            width: 40%;
+            height: 333px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    
+        .memberbox1 p:nth-of-type(1):hover {
+            color: #666;
+        }
+    
+        .memberbox1 p:nth-of-type(2):hover {
+            color: #666;
+        }
+    
+        .memberbox1 p:nth-of-type(3):hover {
+            color: #666;
+        }
+    
+        .memberbox1 p {
+            margin-left: 20px;
+            padding: 10px;
+            margin-top: 50px;
+            cursor: pointer;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 242;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    
+        .inbox {
+            width: 35%;
+            height: 333px;
+            cursor: pointer;
+        }
+    
+        .inbox p:nth-of-type(1):hover {
+            color: #666;
+        }
+    
+        .inbox p:nth-of-type(2):hover {
+            color: #666;
+        }
+    
+        .intext {
+            text-align: right;
+            padding: 30px;
+            margin-top: 10px;
+            line-height: 30px;
+        }
+    
+        .intext h2 {
+            font-size: 30px;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 476;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+            font-weight: bold;
+        }
+    
+        .intext p {
+            font-size: 20px;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 242;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    
+        .rightbox {
+            width: 65%;
+            height: 333px;
+            cursor: pointer;
+        }
+    
+        .rightbox p {
+            text-align: right;
+            font-size: 20px;
+            padding: 25px;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 242;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+    
+        }
+    
+        .copy {
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+            font-family: "Noto Serif", serif;
+            font-optical-sizing: auto;
+            font-weight: 476;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+    
+        }
+}

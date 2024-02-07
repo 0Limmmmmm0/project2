@@ -192,6 +192,8 @@ nav li:hover img {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    font-size: 95px;
+    text-align: right;
 
 }
 
@@ -348,6 +350,7 @@ background: red;}
     cursor: pointer;
     top: 0;
     border-left: 3px solid white;
+    font-size: 60px;
 }
 
 .texttext p {
@@ -519,6 +522,7 @@ background: red;}
     height: 75px;
     background: black;
     margin-top: 100px;
+    
 }
 
 .saletop h3 {
@@ -531,6 +535,7 @@ background: red;}
         "wdth" 100;
     line-height: 70px;
     overflow: hidden;
+    font-size: 45px;
 }
 
 .container3 {
@@ -554,6 +559,7 @@ background: red;}
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+        font-size: 120px;
 }
 
 .imgbox1 {
@@ -742,6 +748,7 @@ hr {
         "wdth" 100;
     line-height: 70px;
     overflow: hidden;
+    font-size: 45px;
 }
 
 /*page5*/
@@ -777,6 +784,7 @@ hr {
     font-variation-settings:
         "wdth" 100;
     font-weight: bold;
+    font-size: 85px;
 }
 
 .container4 .box2 {
@@ -799,6 +807,8 @@ hr {
     font-variation-settings:
         "wdth" 100;
     line-height: 120px;
+    font-size: 80px;
+    text-align: center;
 }
 
 .container4 .box2 p {
@@ -808,6 +818,9 @@ hr {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    font-size: 23px;
+    letter-spacing: 3px;
+
 
 }
 
@@ -818,7 +831,7 @@ hr {
 }
 
 .container4 .box2 img:hover {
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .cl {
