@@ -320,7 +320,7 @@
         }
     
         .intext h2 {
-            font-size: 30px;
+            font-size: 25px;
             font-family: "Noto Serif", serif;
             font-optical-sizing: auto;
             font-weight: 476;
@@ -331,7 +331,7 @@
         }
     
         .intext p {
-            font-size: 20px;
+            font-size: 15px;
             font-family: "Noto Serif", serif;
             font-optical-sizing: auto;
             font-weight: 242;
@@ -348,7 +348,7 @@
     
         .rightbox p {
             text-align: right;
-            font-size: 20px;
+            font-size: 15px;
             padding: 25px;
             font-family: "Noto Serif", serif;
             font-optical-sizing: auto;
@@ -369,6 +369,7 @@
             font-style: normal;
             font-variation-settings:
                 "wdth" 100;
+            font-size: 13px;
     
         }
 
