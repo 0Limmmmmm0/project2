@@ -21,6 +21,11 @@
 
 }
 
+.fix h1 {
+    font-size: 130px;
+}
+
+
 
 
 
@@ -31,8 +36,12 @@
     margin: 3%;
     position: relative;
     overflow: hidden;
-    right: 40px;
-    bottom: 32px;
+    right: 20px;
+    bottom: 35px;
+    background-image: url(../img/1199px.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
 
 #subbox .cover {
@@ -47,8 +56,7 @@
 }
 
 #subbox img {
-    /* width: 100%;
-    height: 80%; */
+    display: none;
 
 }
 
@@ -61,7 +69,6 @@
     display: flex;
     margin-top: 150px;
     margin-bottom: 150px;
-    margin: 1%;
 }
 
 nav {
@@ -79,11 +86,11 @@ nav {
 
 nav li {
     width: 100%;
-    height: 171px;
+    height: auto;
     float: left;
     text-align: center;
     line-height: 30px;
-    font-size: 110px;
+    font-size: 85px;
     line-height: 150px;
     cursor: pointer;
     font-family: "Chakra Petch", sans-serif;
@@ -119,13 +126,13 @@ nav li:nth-of-type(4) {
 }
 
 nav li:nth-of-type(5) {
-    text-align: left;
+    text-align:left;
     border-bottom: 3px solid black;
-    width: 1000px;
+    width: 80%;
 }
 
 nav li:nth-of-type(6) {
-    text-align: right;
+    text-align: center;
     border-bottom: 3px solid black;
 }
 
@@ -139,7 +146,8 @@ nav li img {
 }
 
 nav li:hover img {
-    width: 230px;
+    width: 130px;
+    height: 90px;
     transform: scaleX(1)
 }
 
@@ -148,7 +156,7 @@ nav li:hover img {
 
 .container1 {
     width: 100%
-    height: 925px;
+    height: auto;
     margin: 1%;
     display: flex;
     align-items: center;
@@ -157,12 +165,12 @@ nav li:hover img {
 }
 
 .container1_5 {
-    width: 40%;
+    width: 50%;
 
 }
 
 .container1_5 h1 {
-    height: 305px;
+    height: 392px;
     margin-top: 15px;
     margin-right: 10px;
     font-family: "Noto Serif Sinhala", serif;
@@ -171,6 +179,8 @@ nav li:hover img {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+        font-size: 80px;
+        text-align: right;
 
 }
 
@@ -183,14 +193,29 @@ background: red;}
 
 
 .item1 {
-    width: 80%;
+    width: 60%;
     height: 925px;
     position: relative;
     overflow: hidden;
 }
 
+.item2>img {
+    width: 100%;
+    height: 100%;
+}
+
+.item3>img {
+    width: 100%;
+    height: 100%;
+}
+
+.item4>img {
+    width: 100%;
+    height: 100%;
+}
+
 .itemtextbox {
-    width: 740px;
+    width: 100%;
     height: 250px;
     background: rgba(0, 0, 0, 0.4);
     position: absolute;
@@ -201,7 +226,7 @@ background: red;}
 }
 
 .itemimg h2 {
-    font-size: 55px;
+    font-size: 43px;
     padding: 15px;
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
@@ -304,7 +329,7 @@ background: red;}
 
 .item2 {
     width: 100%;
-    height: 199px;
+    height: 170px;
     line-height: 200px;
     letter-spacing: 5px;
     overflow: hidden;
@@ -337,8 +362,8 @@ background: red;}
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    white-space: nowrap;
     font-size: 40px;
+    width: 100%;
 }
 
 .texttext:hover {
@@ -350,7 +375,7 @@ background: red;}
 
 .item3 {
     width: 100%;
-    height: 199px;
+    height: 170px;
     line-height: 200px;
     letter-spacing: 5px;
     overflow: hidden;
@@ -362,7 +387,7 @@ background: red;}
 
 .item4 {
     width: 100%;
-    height: 199px;
+    height: 170px;
     line-height: 200px;
     letter-spacing: 5px;
     overflow: hidden;
@@ -496,7 +521,7 @@ background: red;}
 
 .saletop {
     width: 100%;
-    height: 75px;
+    height: 65px;
     background: black;
     margin-top: 100px;
 }
@@ -509,8 +534,9 @@ background: red;}
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    line-height: 70px;
+    line-height: 65px;
     overflow: hidden;
+    font-size: 35px;
 }
 
 .container3 {
@@ -521,10 +547,11 @@ background: red;}
 }
 
 .container3_2 {
-    width: 60%;
+    width: 70%;
     display: flex;
     align-content: space-between;
     flex-direction: column;
+    height: auto;
 }
 
 .container3_2 h1 {
@@ -535,7 +562,8 @@ background: red;}
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    font-size: 100px;
+    font-size: 95px;
+    text-align: center;
 }
 
 .imgbox1 {
@@ -637,11 +665,13 @@ ul.img li {
     background: purple;
     background: url(../img/saleside1.jpg);
     background-size: cover;
+    background-position: center;
     cursor: pointer;
     position: relative;
     overflow: hidden;
 
 }
+
 
 .textbox {
     position: absolute;
@@ -714,7 +744,7 @@ hr {
 
 .salebottom {
     width: 100%;
-    height: 75px;
+    height: 65px;
     background: black;
 }
 
@@ -726,7 +756,8 @@ hr {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
-    line-height: 70px;
+    line-height: 65px;
+    font-size: 35px;
     overflow: hidden;
 }
 

@@ -40,7 +40,7 @@
     
     
         .overlay {
-            height: 1000px;
+            height: 900px;
             width: 0;
             position: fixed;
             z-index: 103;
@@ -56,7 +56,7 @@
     
         .overlay-content {
             position: relative;
-            top: 25%;
+            top: 20%;
             width: 90%;
             text-align: right;
             display: block;
@@ -92,14 +92,32 @@
         }
     
         header .lefticon img {
-            width: 35px;
-            height: 35px;
+            width: 30px;
+            height: 30px;
             padding: 10px;
+        }
+
+        header .lefticon img:nth-of-type(2){
+            display: none;
+        }
+
+        header .lefticon img:nth-of-type(4){
+            display: none;
+        }
+        header .lefticon img:hover {
+            opacity: 0.6;
         }
     
         header img {
             width: 100%;
             height: 60px;
+        }
+        header img:hover {
+            opacity: 0.6;
+        }
+        .subbutton img {
+            width: 50px;
+            height: 50px;
         }
     
         /*footer*/

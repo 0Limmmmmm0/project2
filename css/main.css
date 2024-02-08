@@ -19,7 +19,11 @@
     align-items: flex-end;
     position: sticky;
     top: 0;
+    
 
+}
+.fix h1 {
+    font-size: 170px;
 }
 
 /* .move {
