@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FARFERCH</title>
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/common_sub.css">
     <link rel="stylesheet" href="css/sub.css">
 
     <link
@@ -22,31 +21,29 @@
 
     <div id="wrap">
         <header>
-            <div class="sub">
-                <div class="lefticon">
-                    <img src="icon/login.png" alt="">
-                    <img src="icon/shoppingbag.png" alt="">
-                    <img src="icon/hearts.png" alt="">
-                    <img src="icon/search.png" alt="">
-                </div>
+            <div class="lefticon">
+                <img src="icon/login.png" alt="">
+                <img src="icon/shoppingbag.png" alt="">
+                <img src="icon/hearts.png" alt="">
+                <img src="icon/search.png" alt="">
+            </div>
 
-                <div class="subbutton">
+            <div class="subbutton">
 
-                    <img src="icon/sublogo.png" id="a" onclick="openNav()">
-                </div>
+                <img src="icon/sublogo.png" id="a" onclick="openNav()">
+            </div>
 
-                <div id="myNav" class="overlay">
+            <div id="myNav" class="overlay">
 
 
-                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <div class="overlay-content">
-                        <a href="#">HOME</a>
-                        <a href="#">MAN</a>
-                        <a href="#">WOMEN</a>
-                        <a href="#">KIDS</a>
-                        <a href="#">PRE-OWNED</a>
-                        <a href="#"></a>
-                    </div>
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="#">HOME</a>
+                    <a href="#">MAN</a>
+                    <a href="#">WOMEN</a>
+                    <a href="#">KIDS</a>
+                    <a href="#">PRE-OWNED</a>
+                    <a href="#"></a>
                 </div>
             </div>
         </header>
@@ -74,13 +71,104 @@
                         <p>The Bobbie Belted Leather Coat</p>
                         <br><br>
                         <p>₩11,610,000</p>
-                        <p>color : </p>
+                        <p>color : <button>BLACK</button></p>
                         <select name="size" id="size">
-                            <option value="kr" selected="selected">size</option>
+                            <option value="kr" selected="selected">select my size!</option>
                         </select><br>
-                        <button>Add To Cart</button><button>Add To Cart</button>
+                        <div class="btn">
+                            <button>Add To Cart</button><button>Add To Cart</button><br>
+                            <button>WishList</button>
+                        </div>
+                    </div>
+                    <ul class="mu">
+                        <li><a href="#" class="g">
+                                <h3>Style Gide</h3>
+                            </a>
+                            <ul>
+                                <li><a href="#" class="g">chat</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="g">
+                                <h3>Details</h3>
+                            </a>
+                            <ul>
+                                <li><a href="#" class="g">chat</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#" class="g"></a>chat</li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="g">
+                                <h3>Delivery And Returns</h3>
+                            </a>
+                            <ul>
+                                <li><a href="#" class="g"></a>chat</li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="g">
+                                <h3>Review</h3>
+                            </a>
+                            <ul>
+                                <li><a href="#" class="g"></a>chat</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                    <div class="together">
+                        <h3>It's a good item to do together</h3>
+                        <div class="tobox">
+                            <div class="tb1">
+                                <img src="img/sub/to_img1.png" alt="">
+                                <h4> Dolce & Gabbana</h4>
+                                <p>105mm denim ankle boots</p>
+                                <p>₩1,566,000</p>
+
+                            </div>
+                            <div class="tb1">
+                                <img src="img/sub/to_img2.png" alt="">
+                                <h4>Stella McCartney</h4>
+                                <p>logo-plaque shoulder bag</p>
+                                <p>₩2,086,000</p>
+
+                            </div>
+                            <div class="tb1">
+                                <img src="img/sub/to_img3.png" alt="">
+                                <h4>Valentino Garavani</h4>
+                                <p>gradient-effect feather-trimmed midi dress</p>
+                                <p>₩3,961,000</p>
+
+                            </div>
+                            <div class="tb1">
+                                <img src="img/sub/to_img4.png" alt="">
+                                <h4>Prada Eyewear</h4>
+                                <p>Symbole oversized geometric-arm sunglasses
+                                </p>
+                                <p>₩493,000</p>
+
+                            </div>
+                            <span class="le">&lt;</span>
+                            <span class="ri">&gt;</span>
+                        </div>
+                    </div>
+                    <div class="bestit">
+                        <h3>Best It Item</h3>
+                        <div class="itbox">
+                        </div>
+                    </div>
+                    <div class="mm">
+                        <h3>Only' Farferch Benefit</h3>
+
 
                     </div>
+                    <div class="call">
+                        
+                    </div>
+
+
+
+
+
                     <!-- <div class="codybox"></div> -->
                 </div>
 
@@ -196,6 +284,7 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
+        /*header*/
         function openNav() {
             document.getElementById("myNav").style.width = "600px";
         }
@@ -203,7 +292,29 @@
 
         function closeNav() {
             document.getElementById("myNav").style.width = "0";
-        }  
+        }
+        /*page1*/
+        /*#gide*/
+        $(document).ready(function () {
+            $(".mu  a.g").click(function () {
+                $(this).next().addBack().toggleClass("on").end().find(".m, ul").removeClass("on").end().parent().siblings().find(".m, ul").removeClass("on");
+                return false;
+            });
+        });  
+        /*together*/
+        $(".le").click(function () {
+                $(".tobox").stop().animate({ 'margin-left': '-50.3%' }, 800, function () {
+                    $('.tb1:first').appendTo('.tobox');
+                    $('.tobox').css({ 'margin-left': 0 });
+                });
+            })
+
+
+            $(".ri").click(function () {
+                $('.tb1:last').prependTo('.tobox');
+                $('.tobox').css({ 'margin-left': '-50.3%' });
+                $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
+            })
     </script>
 
 </body>

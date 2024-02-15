@@ -29,7 +29,7 @@
 
 
 .fix h1 {
-   font-size: 60px;
+   font-size: 70px;
    text-align: center;
 
 }
@@ -82,7 +82,7 @@
 
 nav {
    width: 100%;
-   height: 170px;
+   height: 150px;
 
    /* background-color: #eee; */
    margin: 0 auto;
@@ -99,8 +99,8 @@ nav li {
    /* float: left; */
    text-align: center;
    line-height: 30px;
-   font-size: 80px;
-   line-height: 150px;
+   font-size: 65px;
+   line-height: 100px;
    margin: 0 auto;
    cursor: pointer;
    font-family: "Chakra Petch", sans-serif;
@@ -157,8 +157,8 @@ nav li img {
 }
 
 nav li:hover img {
-   width: 150px;
-   height: 100px;
+   width: 100px;
+   height: 70px;
    transform: scaleX(1)
 }
 
@@ -223,7 +223,7 @@ background: red;}
 }
 
 .itemimg h2 {
-   font-size: 42px;
+   font-size: 33px;
    padding-left: 10px;
    /* padding-right: 40px; */
    font-family: "Noto Serif", serif;
@@ -268,7 +268,7 @@ background: red;}
    font-style: normal;
    font-variation-settings:
        "wdth" 100;
-   font-size: 50px;
+   font-size: 40px;
 }
 
 
@@ -474,7 +474,7 @@ background: red;}
    font-style: normal;
    font-variation-settings:
        "wdth" 100;
-   font-size: 20px;
+   font-size: 15px;
    margin-bottom: 50px;
    
 }
@@ -511,9 +511,6 @@ background: red;}
 
 }
 
-.boxcover>div {
-   width: 100%;
-}
 
 .boxcover>div img {
    width: 100%;
@@ -522,7 +519,7 @@ background: red;}
 
 .box {
    height: auto;
-   width: 100%;
+   width: 14.66%;
    margin: 1%;
    white-space: nowrap;
    font-family: "Noto Serif", serif;
@@ -539,8 +536,8 @@ background: red;}
 }
 
 .leftbutton img {
-   width: 45px;
-   height: 45px;
+   width: 40px;
+   height: 40px;
 }
 
 .rightbutton {
@@ -548,13 +545,18 @@ background: red;}
 }
 
 .rightbutton img {
-   width: 45px;
-   height: 45px;
+   width: 40px;
+   height: 40px;
+}
+
+.box p{
+   font-size: 13px;
 }
 
 .box h4 {
    margin-top: 10px;
    margin-bottom: 5px;
+   font-size: 16px;
 }
 
 .box img:hover {
@@ -651,21 +653,21 @@ background: red;}
 }
 
 .container3_2 h1 {
-   line-height: 150px;
+   line-height: 120px;
    font-family: "Noto Serif Sinhala", serif;
    font-optical-sizing: auto;
    font-weight: 800;
    font-style: normal;
    font-variation-settings:
        "wdth" 100;
-   font-size: 80px;
+   font-size: 70px;
    text-align: center;
    
 }
 
 .imgbox1 {
    width: 100%;
-   height: 505px;
+   height: 300px;
    overflow: hidden;
    display: block;
    position: relative;
@@ -875,7 +877,7 @@ hr {
 .container4 .box1 {
    width: 98%;
    margin: 1%;
-   height: 810px;
+   height: 750px;
    margin-top: 60px;
    background-image: url(../img/get.jpg);
    background-size: cover;
@@ -886,7 +888,7 @@ hr {
 .container4 .box1 h1 {
    margin-top: 20px;
    margin-left: 30px;
-   line-height: 110px;
+   line-height: 90px;
    letter-spacing: 1px;
    font-family: "Noto Serif", serif;
    font-optical-sizing: auto;
@@ -895,12 +897,12 @@ hr {
    font-variation-settings:
        "wdth" 100;
    font-weight: bold;
-   font-size: 60px;
+   font-size: 55px;
    word-break:normal;
 }
 
 .container4 .box2 {
-   width: 97%;
+   width: 96%;
    margin: 1%;
    height: auto;
    /* display: flex; */
@@ -920,7 +922,7 @@ hr {
    font-variation-settings:
        "wdth" 100;
    line-height: 120px;
-   font-size: 75px;
+   font-size: 70px;
     text-align: center;
 }
 
@@ -935,13 +937,13 @@ hr {
        word-break:normal;
        text-align: center;
       display: none;
-      font-size: 1px;
+      font-size: 10px;
       letter-spacing: 3px;
 }
 
 .container4 .box2 img {
-   width: 250px;
-   height: 250px;
+   width: 200px;
+   height: 200px;
    margin-top: 50px;
 }
 
@@ -979,7 +981,7 @@ hr {
 }
 
 .cl>span {
-   font-size: 28px;
+   font-size: 23px;
 }
 
 .cl>img.ic {
@@ -1105,7 +1107,7 @@ select[type=num] {
 }
 
 input[type=phone] {
-   width: 388px;
+   width: 200px;
    height: 68px;
    border-radius: 50px;
    border: none;

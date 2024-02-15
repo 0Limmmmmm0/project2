@@ -1,59 +1,209 @@
-/*page1*/
-#p1 {width: 100%;
-    background: black;
-}
-.pi_sub {
-    width: 1850px;
-    margin: 0 auto;
-    height: auto;
-    display: flex;
-    
-}
-.img {
-    width: 50%;
-    height: auto;
-    margin-top: 10px;
-    
-}
-.text {
-    width: 50%;
-    height: 800px;
-    background: white;
-    margin-left: 2%;
-    text-align: center;
-    margin-top: 10px;
-}
-.txtbox {
-    background: pink;
-    height: auto;
-    text-align: center;
-}
-.txtbox h3 {font-size: 2em;}
-.txtbox p {font-size: 18px;}
+@media screen and (min-width:1500px) {
 
-select {
-    width: 500px;
-    height: 50px;
-    border-radius: 100px;
-}
-button {
-    width: 200px;
-    height: 50px;
-    background: black;
-    color: white;
-    border-radius: 50px;
-    margin: 1%;
-}
-/* .codybox {
+    /*page1*/
+    #p1 {
+        width: 100%;
+        background: black;
+    }
+
+    .pi_sub {
+        width: 1850px;
+        margin: 0 auto;
+        height: auto;
+        display: flex;
+
+    }
+
+    .img {
+        width: 50%;
+        height: auto;
+        margin-top: 10px;
+
+    }
+
+    .text {
+        width: 50%;
+        height: 300px;
+        background: white;
+        margin-left: 2%;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .txtbox {
+        background: white;
+        height: auto;
+        text-align: center;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .txtbox h3 {
+        font-size: 2em;
+    }
+
+    .txtbox p {
+        font-size: 18px;
+    }
+
+    select {
+        width: 500px;
+        height: 50px;
+        border-radius: 100px;
+    }
+
+    .btn button {
+        width: 200px;
+        height: 50px;
+        background: black;
+        color: white;
+        border-radius: 50px;
+        margin: 1%;
+    }
+
+    .mu {
+        /* background: yellow; */
+        width: 906px;
+        height: auto;
+        /* position: absolute; */
+    }
+
+    .mu li:nth-of-type(1) {
+        background: url('../icon/bu.png') no-repeat right 30px center;
+    }
+
+    .mu li:nth-of-type(2) {
+        background: url('../icon/bu.png') no-repeat right 30px center;
+    }
+
+    .mu li:nth-of-type(3) {
+        background: url('../icon/bu.png') no-repeat right 30px center;
+    }
+
+    .mu li:nth-of-type(4) {
+        background: url('../icon/bu.png') no-repeat right 30px center;
+    }
+
+    .mu a {
+        display: block;
+        padding: 20px;
+        border-bottom: 1px solid white;
+    }
+
+    .mu ul a {
+        /* background: #ffffff; */
+        text-indent: 20px;
+        height: 500px;
+        color: rgb(255, 255, 255);
+        
+    }
+
+    .mu li ul {
+        display: none;
+    }
+
+    .mu li ul.on {
+        display: block;
+    }
+
+    
+    span {
+        position: absolute;
+        top: 50%;
+        display: block;
+        font-size: 40px;
+        color: white;
+        line-height: 40px;
+        /* background: rgba(0,0,0,0.6); */
+        cursor: pointer;
+        /* height: 10px; */
+        transform: translateY(-50%);
+    }
+    span:hover {
+        /* background: rgba(255,255,255,0.8); */
+        color: black;
+    }
+    .le {
+        left: 0;
+        border-radius: 0 10px 10px 0px;
+    }
+    .ri {
+        right: 0;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .together h3 {
+        font-size: 50px;
+        color: white;
+    }
+    .together {
+        width: 100%;
+        height: 1000px;
+        /* background: paleturquoise; */
+        padding-top: 50px;
+        position: relative;
+        overflow: hidden;
+        
+    }
+
+    .tobox {
+        display: flex;
+        background-color: rgb(243, 143, 21);
+        width: 200%;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tb1 {
+        width: 400px;
+        height: 550px;
+        margin: 1%;
+        padding-right: 15px;
+    }
+    /* .tobox>div {
+        width: 14.6%;
+    }
+     */
+    /* .toboxc>div img {
+        width: 100%;
+    } */
+
+    .tb1:nth-of-type(3){
+        /* display: none; */
+    }
+
+    .bestit {
+        width: 100%;
+        background: indianred;
+        height: 900px;
+        position: relative;
+    }
+
+    .mm {
+        background: rgb(255, 255, 152);
+        width: 100%;
+        height: 800px;
+    }
+
+    .call {
+        width: 100%;
+        height: 900px;
+        background-color: aquamarine;
+    }
+
+    /* .codybox {
     background: palegreen;
     width: 100%;
     height: 00px;
 } */
 
 
-/*page2*/
-.cody {width: 100%;
-    background: peru;
-    height: 800px;
+    /*page2*/
+    .cody {
+        width: 100%;
+        background: peru;
+        height: 800px;
 
+    }
 }
