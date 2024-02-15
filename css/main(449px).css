@@ -1,4 +1,4 @@
-@media screen and (max-width:779px) {
+@media screen and (max-width:499px) {
     /*slider*/
 
 #slider {
@@ -21,6 +21,7 @@
    position: absolute;
    overflow: hidden;
    bottom: 0;
+   top: 400px;
    margin: 0 auto;
 
 
@@ -28,8 +29,9 @@
 
 
 .fix h1 {
-   font-size: 90px;
+   font-size: 60px;
    text-align: center;
+
 }
 
 
@@ -42,7 +44,7 @@
    /* position: relative; */
    /* overflow: hidden; */
    right: 40px;
-   bottom: 32px;
+   bottom: 320px;
    display: none;
    
 }
@@ -570,7 +572,27 @@ background: red;}
    height: 55px;
    background: black;
    margin-top: 100px;
-   
+   max-width: 100%;
+   overflow-x: hidden; overflow-y: hidden;
+
+}
+
+
+.saletop .anima {
+   position: absolute;
+   white-space: nowrap;
+   will-change: transform;
+   animation: marquee 60s linear infinite;
+}
+
+@keyframes marquee {
+   from {
+      transform: translateX(0);
+   }
+
+   to {
+      transform: translateX(-50%);
+   }
 }
 
 .saletop h3 {
@@ -590,6 +612,15 @@ background: red;}
    width: 100%;
    height: 55px;
    background: black;
+   max-width: 100%;
+   overflow-x: hidden; overflow-y: hidden;
+}
+
+.salebottom .anima {
+   position: absolute;
+   white-space: nowrap;
+   will-change: transform;
+   animation: marquee 60s linear infinite;
 }
 
 .salebottom h3 {
