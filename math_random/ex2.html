@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        let numbering = parseInt(prompt('입력할 학생수를 적으시오.','0'));
+
+        let input = function(){
+            let name = prompt('이름을 입력하시오','홍길동');
+            let korean = Number(prompt('국어 점수를 입력하시오','100'));
+            let english = Number(prompt('영어 점수를 입력하시오','100'));
+            let math = Number(prompt('수학 점수를 입력하시오','100'));
+            let sum = korean+english+math;
+            let avg = Math.round(sum/3);
+
+            document.write('<br>이름:'+name+'<br><br>');
+            document.write('국어 점수:'+korean+'<br>');
+            document.write('영어 점수:'+english+'<br>');
+            document.write('수학 점수:'+math+'<br>');
+            document.write('합계 점수:'+sum+'<br>');
+            document.write('평균 점수:'+avg+'<br>');
+        }
+        let i=0;
+        while(i<numbering){
+            input();
+            i++;
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> 자동차 견적서 </title>
+  <meta http-equiv="content-type"  content="text/html; charset=utf-8" />
+  <style >
+    *{margin:0; padding:0;}
+    body{font:12px/1.5 dotum,"돋움", gulim, "굴림", sans-serif;}
+    li{list-style:none;}
+    table{border-collapse:collapse;border-spacing:0;}
+
+    h1{text-align:center;}
+    #wrap{width:600px; margin:0 auto;}
+    #box{width:100%;}
+    #box th, td{border:1px solid #ccc;height:30px; text-align: center;}
+    #box th{background-color:#333;color:#fff;}
+    #boxe td{text-align:center;}
+    #total{border:none 0;background:none;font-size:20px;font-weight:bold;text-align:center;}
+  </style>
+
+  <script>
+
+    function car() { //함수 정의문
+      /*defaultValue는 <input>에 초기에 입력된 value의 값을 기억해 가져옵니다.*/
+      var basic_car = Number(document.getElementById("total").defaultValue);
+
+      let opts = document.querySelectorAll('.option');
+
+      for (let opt of opts) {
+        if (opt.checked) basic_car += Number(opt.value);
+      }
+
+      /*위에서 더해진 가격을 id의 값이 total인 요소의
+      value의 값으로 입력합니다.*/
+      document.getElementById("total").value = basic_car;
+    }
+
+  </script>
+</head>
+<body>
+  <h1>전기 자동차 견적</h1>
+  <div id="wrap">
+    <p><img src="img/car.jpg" alt="자동차" width="600" /></p>
+    <table id="box">
+      <tr>
+        <th width=380>옵 션</th>
+        <th width=160>추가 가격</th>
+        <th>선택</th>
+      </tr>
+      <tr>
+        <td>인조가죽시트</td>
+        <td>250000</td>
+        <td><!-- 옵션 체크박스에 클릭할 때 마다 car()에 저장된  일련의 실행문을 실행합니다. -->
+          <input type="checkbox" name="opt1" class="option" value="250000" onclick="car();" />
+        </td>
+      </tr>
+      <tr>
+        <td>내비게이션</td>
+        <td>250000</td>
+        <td><input type="checkbox" name="opt2" class="option" value="250000" onclick="car();" /></td>
+      </tr>
+      <tr>
+        <td>선루프</td>
+        <td>440000</td>
+        <td><input type="checkbox" name="opt3" class="option" value="440000" onclick="car();" /></td>
+      </tr>
+      <tr>
+        <th>(기본)차량가격</th>
+        <td colspan="2"><input type="text" name="total" id="total" value="13450000" /></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>

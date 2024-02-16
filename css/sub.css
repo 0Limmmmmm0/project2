@@ -39,11 +39,12 @@
     }
 
     .txtbox h3 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .txtbox p {
-        font-size: 18px;
+        font-size: 20px;
+        line-height: 40px;
     }
 
     select {
@@ -52,13 +53,19 @@
         border-radius: 100px;
     }
 
-    .btn button {
+    .btn1 button {
         width: 200px;
         height: 50px;
         background: black;
         color: white;
         border-radius: 50px;
         margin: 1%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn1 button:hover {
+        background: rgba(0,0,0,0.7);
     }
 
     .mu {
@@ -67,6 +74,26 @@
         height: auto;
         /* position: absolute; */
     }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+    
+        .mu th,
+        td {
+            border: 1px solid #ccc;
+            height: 50px;
+            text-align: center;
+        }
+    
+        .mu th {
+            background-color: #ffffff;
+            color: #000000;
+        }
+    
+        .mu td {
+            text-align: center;
+        }
 
     .mu li:nth-of-type(1) {
         background: url('../icon/bu.png') no-repeat right 30px center;
@@ -107,9 +134,9 @@
     }
 
     
-    span {
+    .tobox span {
         position: absolute;
-        top: 50%;
+        top: 60%;
         display: block;
         font-size: 40px;
         color: white;
@@ -119,9 +146,9 @@
         /* height: 10px; */
         transform: translateY(-50%);
     }
-    span:hover {
+    .tobox span:hover {
         /* background: rgba(255,255,255,0.8); */
-        color: black;
+        color: rgba(240, 240, 240, 0.5);
     }
     .le {
         left: 0;
@@ -133,14 +160,16 @@
     }
 
     .together h3 {
-        font-size: 50px;
+        font-size: 4.5em;
         color: white;
+        text-align: left;
+        font-weight: lighter;
     }
     .together {
         width: 100%;
         height: 1000px;
         /* background: paleturquoise; */
-        padding-top: 50px;
+        padding-top: 150px;
         position: relative;
         overflow: hidden;
         
@@ -148,11 +177,12 @@
 
     .tobox {
         display: flex;
-        background-color: rgb(243, 143, 21);
+        /* background-color: rgb(255, 255, 255); */
         width: 200%;
-        height: 800px;
+        height: 700px;
         justify-content: center;
         align-items: center;
+        /* border: 1px solid white; */
     }
 
     .tb1 {
@@ -160,6 +190,7 @@
         height: 550px;
         margin: 1%;
         padding-right: 15px;
+        border: 1px solid black;
     }
     /* .tobox>div {
         width: 14.6%;
@@ -175,21 +206,91 @@
 
     .bestit {
         width: 100%;
-        background: indianred;
-        height: 900px;
+        height: 1300px;
         position: relative;
+        overflow: hidden;
+        /* padding-bottom: 100px; */
+        top: 20px;
+
+    }
+    .bestit h3 {
+        font-size: 4.5em;
+        color: white;
+        text-align: left;
+        font-weight: lighter;
+
+    }
+    .itbox {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        
+
+    }
+/* 
+    .itbtxt {
+        transform: translateX(-500px);
+            transition: all 0.5s ease;
+            vertical-align: bottom;
     }
 
+    .itbtxt .on{
+        transform: translateX(0);
+    } */
+        .itb {
+            margin: 10px;
+            width: 400px;
+            height: 500px;
+            float: left;
+            margin: 30px;
+            padding-bottom: 20px;
+        }
+
+
+
     .mm {
-        background: rgb(255, 255, 152);
+        /* background: rgb(75, 75, 26); */
         width: 100%;
+        height: auto;
+        position: relative;
+        top: 200px;
+        
+    }
+    .mb {
+        /* background: rgb(146, 146, 0); */
+        width: 100%;
+        height: auto;
+        position: relative;
+        /* top: 200px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .mm h3 {
+        font-size: 4.5em;
+        color: white;
+        /* text-align: left; */
+        font-weight: lighter;
+    }
+
+    .mmbox {
+        /* background: aquamarine; */
+        width: 800px;
         height: 800px;
+        margin: 1%;
     }
 
     .call {
         width: 100%;
         height: 900px;
-        background-color: aquamarine;
+        background-color: rgb(0, 155, 103);
+        position: relative;
+        display: flex;
+        top: 200px;
     }
 
     /* .codybox {
@@ -201,9 +302,271 @@
 
     /*page2*/
     .cody {
-        width: 100%;
-        background: peru;
-        height: 800px;
+        width: 1850px;
+        height: 900px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
 
+    }
+    
+    .cody .box1 {
+        width: 906px;
+        height: 811px;
+        background: rosybrown;
+        /* display: flex; */
+        margin-top: 60px;
+        background-image: url(../img/sub/ne.png);
+        background-size: cover;
+    }
+    
+    .cody .box1 h1 {
+        margin-top: 20px;
+        margin-left: 30px;
+        line-height: 130px;
+        letter-spacing: 1px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 242;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-weight: bold;
+        font-size: 85px;
+    }
+    
+    .cody .box2 {
+        width: 900px;
+        height: 805px;
+        /* display: flex; */
+        margin-top: 60px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border: 3px solid black;
+    }
+    
+    .cody .box2 h1 {
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        line-height: 120px;
+        font-size: 80px;
+        text-align: center;
+    }
+    
+    .cody .box2 p {
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 242;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-size: 23px;
+        letter-spacing: 3px;
+    
+    
+    }
+    
+    .cody .box2 img {
+        width: 300px;
+        height: 300px;
+        margin-top: 50px;
+    }
+    
+    .cody .box2 img:hover {
+        opacity: 0.6;
+    }
+    
+    .cody .cl {
+        border: none;
+        text-align: center;
+        transition: 0.5s;
+        cursor: pointer;
+        display: inline-block;
+        padding: 10px;
+        color: rgb(77, 77, 77);
+        letter-spacing: 8px;
+        font-weight: bold;
+    }
+    
+    .cody .cl span {
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 242;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        font-weight: bold;
+    
+    }
+    
+    .cody .cl:hover {
+        opacity: 0.5;
+    }
+    
+    .cody .cl>span {
+        font-size: 28px;
+    }
+    
+    .cody .cl>img.ic {
+        width: 31px;
+        height: 36px;
+        float: right;
+        vertical-align: middle;
+        margin: 0 15px 0 0;
+        /* margin-left: 10px; */
+    }
+    
+    
+    
+    
+    .cody .emailcheck {
+        position: relative;
+        left: 70px;
+        padding-bottom: 30px;
+        display: flex;
+    }
+    
+    .cody .emailcheck p {
+        line-height: 25px;
+        margin-left: 10px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+    
+    
+    .cody input {
+        width: 27px;
+        height: 27px;
+    }
+    
+    .cody .email {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    
+    .cody input[type=email] {
+        width: 794px;
+        height: 68px;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        padding-left: 20px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        line-height: 70px;
+    }
+    
+    .cody input[type=number] {
+        width: 176px;
+        height: 68px;
+        border-radius: 50px;
+    }
+    
+    .cody .smscheck {
+        position: relative;
+        left: 70px;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        display: flex;
+    }
+    
+    .cody .smscheck p {
+        line-height: 25px;
+        margin-left: 10px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+    
+    .cody .sms {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        /* flex-direction: column; */
+    }
+    
+    .cody select[type=num] {
+        width: 200px;
+        height: 68px;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        padding-left: 20px;
+        margin-right: 40px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        line-height: 70px;
+        appearance: none;
+        background: url('../icon/bottom.png') no-repeat right 24px center;
+        background-color: white;
+    
+    }
+    
+    .cody input[type=phone] {
+        width: 550px;
+        height: 68px;
+        border-radius: 50px;
+        border: none;
+        font-size: 20px;
+        padding-left: 20px;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+        line-height: 70px;
+    }
+    
+    .cody .btn {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+    
+    }
+    
+    .cody button {
+        width: 250px;
+        height: 70px;
+        border-radius: 50px;
+        border: none;
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        cursor: pointer;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+    }
+    
+    .cody button:hover {
+        opacity: 0.8;
     }
 }
