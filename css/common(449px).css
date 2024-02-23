@@ -131,7 +131,7 @@
 
     #bottom {
         margin: 1%;
-        width: 100%;
+        width: 98%;
         height: auto;
         display: flex;
         flex-wrap: wrap;
@@ -373,7 +373,7 @@
     }
 
     .rightbox {
-        width: 55%;
+        width: 54%;
         height: 333px;
         cursor: pointer;
         margin-left: 55px;
@@ -396,7 +396,7 @@
     }
 
     .copy {
-        width: 100%;
+        width: 98%;
         height: auto;
         margin: 0 auto;
         font-family: "Noto Serif", serif;

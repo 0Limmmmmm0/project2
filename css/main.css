@@ -608,7 +608,7 @@ ul.img {
 
 ul.img li {
     position: absolute;
-    left: 640px;
+    left: 0;
     transition-delay: 1s;
     padding: 0;
     margin: 0;

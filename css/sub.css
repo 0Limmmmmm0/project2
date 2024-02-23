@@ -12,8 +12,23 @@
         margin: 0 auto;
         height: auto;
         display: flex;
-
+        flex-wrap: wrap;
         padding-bottom: 160px;
+    }
+
+    .pi_sub .topp {
+        width: 100%;
+        font-family: "Noto Serif", serif;
+        font-optical-sizing: auto;
+        font-weight: 476;
+        /* font-style: normal; */
+        font-variation-settings:
+            "wdth" 100;
+        text-align: left;
+        color: white;
+        font-size: 1.1em;
+        padding-left: 10px;
+
     }
 
     .img {
@@ -28,13 +43,14 @@
     }
 
     .text {
-        width: 900px;
+        width: 48%;
         /* height: 300px;
         background: white; */
         margin-left: 2%;
         text-align: center;
         margin-top: 10px;
     }
+    
 
     .ttb {
         width: 100px;
@@ -78,6 +94,10 @@
         top: 0;
     }
 
+    .txtbox .mobileimg{
+        display: none;
+    }
+
     .txtbox h3 {
         font-size: 2.5em;
     }
@@ -108,6 +128,8 @@
         z-index: 1;
         cursor: pointer;
         margin: 0 auto;
+        font-size: 19px;
+        line-height: 70px;
     }
 
     .dropdown .ss:after {
@@ -199,7 +221,8 @@
         text-align: right;
         position: relative;
         right: 120px;
-        top: 50px;
+        top: 70px;
+
     }
 
     .ibbox h3 {
@@ -293,6 +316,7 @@
 
     .gidetull dd {
         font-size: 0.8em;
+        white-space: nowrap;
     }
 
     .gidetull dt {
@@ -388,7 +412,7 @@
     .mu ul a {
         /* background: #ffffff; */
         text-indent: 20px;
-        height: 500px;
+        height: auto;
         color: rgb(255, 255, 255);
 
     }
@@ -631,26 +655,59 @@
     }
 
     .mmbox {
-        /* background: aquamarine; */
+        background: aquamarine;
         width: 100%;
-        height: 800px;
+        height: 900px;
+        margin: 0 auto;
         margin: 1%;
+        cursor: pointer;
+        
     }
 
     .mmbox h3 {
         text-align: center;
         position: relative;
-        top: 30%;
+        top: 25%;
         font-size: 6em;
         cursor: pointer;
-
-
+        color: rgb(207, 207, 207);
     }
 
 
     .mmbox p {
         color: white;
+        font-size: 2em;
+        text-align: center;
+        position: relative;
+        top: 30px;
 
+    }
+
+    .mmbox:hover {
+        opacity: 0.85;
+    }
+    .bx {
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        position: relative;
+        top: 25%;
+        
+    }
+
+    .bbx {
+        width: 100%;
+        /* height: 100%; */
+        position: relative;
+        top: 28%;
+
+    }
+
+    .bx:hover {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    .mmbox h3:hover {
+        color: black;
     }
 
     .call {
@@ -702,6 +759,10 @@
         
         font-size: 0.8em;
 
+    }
+
+    .revi tr {
+        height:65px;
     }
         .reni th {
             width: 150px;
