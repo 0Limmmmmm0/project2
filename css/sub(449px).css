@@ -967,7 +967,7 @@
             font-variation-settings:
                 "wdth" 100;
             font-weight: bold;
-            font-size: 40px;
+            font-size: 42px;
             text-align: left;
         }
     
@@ -1069,8 +1069,9 @@
 
 
 
-.emailcheck {
+.cody .emailcheck {
     position: relative;
+    left: 30px;
     margin-right: 10px;
     padding-bottom: 30px;
     display: flex;
@@ -1103,12 +1104,12 @@ input {
 
 }
 
-input[type=email] {
-   width: 80%;
+.cody input[type=email] {
+   width: 86%;
    height: 68px;
    border-radius: 50px;
    border: none;
-   font-size: 20px;
+   font-size: 18px;
    padding-left: 20px;
    font-family: "Noto Serif", serif;
    font-optical-sizing: auto;
@@ -1125,7 +1126,7 @@ input[type=number] {
    border-radius: 50px;
 }
 
-.smscheck {
+.cody .smscheck {
    position: relative;
    left: 30px;
    padding-top: 50px;
@@ -1161,7 +1162,7 @@ input[type=number] {
    height: 100%;
    border-radius: 50px;
    border: none;
-   font-size: 20px;
+   font-size: 18px;
    padding-left: 20px;
    margin-right: 20px;
    font-family: "Noto Serif", serif;
@@ -1182,7 +1183,7 @@ input[type=number] {
    height: 68px;
    border-radius: 50px;
    border: none;
-   font-size: 20px;
+   font-size: 18px;
    padding-left: 20px;
    font-family: "Noto Serif", serif;
    font-optical-sizing: auto;
@@ -1200,13 +1201,13 @@ input[type=number] {
 
 }
 
-button {
-   width: 189px;
-   height: 63px;
+.cody button {
+   width: 150px;
+   height: 55px;
    border-radius: 50px;
    border: none;
    text-align: center;
-   font-size: 25px;
+   font-size: 22px;
    font-weight: bold;
    cursor: pointer;
    font-family: "Noto Serif", serif;

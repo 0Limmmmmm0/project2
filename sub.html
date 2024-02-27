@@ -468,9 +468,10 @@
                                 <div class="bx">
                                     <h3>MEMBERS <br>
                                         GET MORE</h3>
-                                    </div>
-                                    <div class="bbx">
-                                    <p>Enjoy exclusive rewards as a member : <br>think private sales, limited edition items
+                                </div>
+                                <div class="bbx">
+                                    <p>Enjoy exclusive rewards as a member : <br>think private sales, limited edition
+                                        items
                                         and more
                                     </p>
                                 </div>
@@ -479,22 +480,25 @@
                                 style="background-image: url(img/sub/be3.png); background-size: cover; background-position: center;">
                                 <div class="bx">
                                     <h3>WELCOME <br>
-                                        REWARD</h3></div>
-                                        <div class="bbx">
-                                    <p>Sign up today and get a limited-time <br>promotion on your first purchase</p></div>
-                                
+                                        REWARD</h3>
+                                </div>
+                                <div class="bbx">
+                                    <p>Sign up today and get a limited-time <br>promotion on your first purchase</p>
+                                </div>
+
                             </div>
                             <div class="mmbox"
                                 style="background-image: url(img/sub/be2.png); background-size: cover; background-position: center; ">
                                 <div class="bx">
                                     <h3>FREE GLOBAL <br>
-                                        RETURNS</h3></div>
-                                        <div class="bbx">
+                                        RETURNS</h3>
+                                </div>
+                                <div class="bbx">
                                     <p>If you change your mind, we offer free global <br>returns collections for all our
                                         customers
                                     </p>
                                 </div>
-                                
+
                             </div>
                         </div>
 
@@ -502,20 +506,20 @@
                     </div>
 
                 </div>
-                <div class="text">                    
-                    
+                <div class="text">
+
                     <div class="txtbox">
                         <div class="slidewrap">
-                        <div class="mobileimg">
-                            <img src="img/sub/page6.jpg" alt="subimg1">
-                            <img src="img/sub/page1.jpg" alt="subimg2">
-                            <img src="img/sub/page4.jpg" alt="subimg3">
-                            <img src="img/sub/page2.jpg" alt="subimg4">
-                            <img src="img/sub/page8.jpg" alt="subimg5">
-                            <img src="img/sub/page5.jpg" alt="subimg6">
-                            <img src="img/sub/page7.jpg" alt="subimg7">
+                            <div class="mobileimg">
+                                <img src="img/sub/page6.jpg" alt="subimg1">
+                                <img src="img/sub/page1.jpg" alt="subimg2">
+                                <img src="img/sub/page4.jpg" alt="subimg3">
+                                <img src="img/sub/page2.jpg" alt="subimg4">
+                                <img src="img/sub/page8.jpg" alt="subimg5">
+                                <img src="img/sub/page5.jpg" alt="subimg6">
+                                <img src="img/sub/page7.jpg" alt="subimg7">
+                            </div>
                         </div>
-                    </div>
                         <h3>KHAITE</h3>
                         <p>The Bobbie Belted Leather Coat</p>
                         <br>
@@ -545,7 +549,7 @@
                             <div class="ib2">
                                 <h3>Product IDs</h3>
                                 <p>FARFETCH ID: 22208024 <br>
-                                    Brand style ID: 7099729</p>                               
+                                    Brand style ID: 7099729</p>
 
                             </div>
 
@@ -771,39 +775,66 @@
 
 
 
-        // if (window.matchMedia("(min-width: 1500px)").matches) {
-        $(".ri").click(function () {
-            $(".tobox").stop().animate({ 'margin-left': '-48.9%' }, 800, function () {
-                $('.tb1:first').appendTo('.tobox');
-                $('.tobox').css({ 'margin-left': 0 });
-            });
-        })
+        if (window.matchMedia("(min-width: 1500px)").matches) {
+            $(".ri").click(function () {
+                $(".tobox").stop().animate({ 'margin-left': '-48.9%' }, 800, function () {
+                    $('.tb1:first').appendTo('.tobox');
+                    $('.tobox').css({ 'margin-left': 0 });
+                });
+            })
 
 
-        $(".le").click(function () {
-            $('.tb1:last').prependTo('.tobox');
-            $('.tobox').css({ 'margin-left': '-48.9%' });
-            $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
-        })
+            $(".le").click(function () {
+                $('.tb1:last').prependTo('.tobox');
+                $('.tobox').css({ 'margin-left': '-48.9%' });
+                $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
+            })
 
-        // } else if (window.matchMedia("(max-width:1499px) and (min-width:1200px)").matches) {
-        //     if (window.matchMedia("(min-width: 1500px)").matches) {
-        //         $(".ri").click(function () {
-        //             $(".tobox").stop().animate({ 'margin-left': '-100%' }, 800, function () {
-        //                 $('.tb1:first').appendTo('.tobox');
-        //                 $('.tobox').css({ 'margin-left': 0 });
-        //             });
-        //         })
+        } else if (window.matchMedia("(max-width:1499px) and (min-width:1200px)").matches) {
+            $(".ri").click(function () {
+                $(".tobox").stop().animate({ 'margin-left': '-49.9%' }, 800, function () {
+                    $('.tb1:first').appendTo('.tobox');
+                    $('.tobox').css({ 'margin-left': 0 });
+                });
+            })
 
 
-        //         $(".le").click(function () {
-        //             $('.tb1:last').prependTo('.tobox');
-        //             $('.tobox').css({ 'margin-left': '-100%' });
-        //             $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
-        //         })
+            $(".le").click(function () {
+                $('.tb1:last').prependTo('.tobox');
+                $('.tobox').css({ 'margin-left': '-49.9%' });
+                $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
+            })
 
-        //     }
-        // }
+        } else if (window.matchMedia("(max-width:1199px) and (min-width:780px)").matches) {
+            (".ri").click(function () {
+                $(".tobox").stop().animate({ 'margin-left': '-80%' }, 800, function () {
+                    $('.tb1:first').appendTo('.tobox');
+                    $('.tobox').css({ 'margin-left': 0 });
+                });
+            })
+
+
+            $(".le").click(function () {
+                $('.tb1:last').prependTo('.tobox');
+                $('.tobox').css({ 'margin-left': '-80%' });
+                $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
+            })
+
+        } else {
+            (".ri").click(function () {
+                $(".tobox").stop().animate({ 'margin-left': '-100%' }, 800, function () {
+                    $('.tb1:first').appendTo('.tobox');
+                    $('.tobox').css({ 'margin-left': 0 });
+                });
+            })
+
+
+            $(".le").click(function () {
+                $('.tb1:last').prependTo('.tobox');
+                $('.tobox').css({ 'margin-left': '-100%' });
+                $(".tobox").stop().animate({ 'margin-left': 0 }, 800)
+            })
+        }
 
         const img = document.getElementById('im1');
         img.addEventListener('mouseover', (event) => {

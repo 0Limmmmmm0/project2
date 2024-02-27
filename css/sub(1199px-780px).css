@@ -458,7 +458,7 @@
         background-position: right;
     }
 
-    .mu h3:nth-of-type(2) {
+.leitb    .mu h3:nth-of-type(2) {
         background: url('../icon/bu.png') no-repeat right 30px center;
         background-position: right;
     }
@@ -517,6 +517,7 @@
         color: rgba(240, 240, 240, 0.5);
     }
 
+
     .le {
         left: -5px;
         margin-top: 5px;
@@ -545,7 +546,7 @@
 
     .together {
         width: 100%;
-        height: 930px;
+        height: 1020px;
         margin: 0 auto;
         /* background: paleturquoise; */
         padding-top: 130px;
@@ -558,7 +559,7 @@
     .tobox {
         display: flex;
         /* background-color: rgb(255, 255, 255); */
-        width: 400%;
+        width: 200%;
         /* margin: 0 auto; */
         height: 420px;
         justify-content: center;
@@ -615,16 +616,19 @@
     } */
 
     .tb1:nth-of-type(3) {
-        /* display: none; */
+        display: none;
+    }
+    .tb1:nth-of-type(4) {
+        display: none;
     }
 
     .bestit {
         width: 100%;
-        height: 1400px;
+        height: auto;
         position: relative;
         overflow: hidden;
         /* padding-bottom: 100px; */
-        /* top: 50px; */
+        /* top: 100px; */
 
     }
 
@@ -647,7 +651,6 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        /* width: 100%; */
 
 
     }
@@ -730,9 +733,9 @@
     .mm {
         /* background: rgb(75, 75, 26); */
         width: 100%;
-        height: auto;
+        height: 1850px;
         position: relative;
-        /* top: 50px; */
+        top: 50px;
 
     }
     .mmbox:hover {
