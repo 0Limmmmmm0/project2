@@ -818,7 +818,7 @@
     .cody {
         width: 1500px;
         height: 900px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         display: flex;
         justify-content: space-around;
 
@@ -833,7 +833,7 @@
         background-image: url(../img/get.jpg);
         background-size: cover;
         position: relative;
-        right: 50px;
+        /* right: 50px; */
     }
 
     .cody .box1 h1 {
@@ -861,7 +861,7 @@
         flex-direction: column;
         border: 3px solid black;
         position: relative;
-        left: 50px;
+        /* left: 50px; */
     }
 
     .cody .box2 h1 {
